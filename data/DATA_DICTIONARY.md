@@ -1,0 +1,77 @@
+# Data dictionary for the TFDT computational scenarios
+
+Revision date: 28 October 2026. These inputs are synthetic scenario records, not industrial measurements. The scenario seed is 42.
+
+## Actual input files
+
+### kinetic_and_transport_parameters.csv
+131 records. Exact columns: `process_id`, `chapter`, `parameter`, `symbol`, `value`, `unit`, `uncertainty_sd`, `source_reference`, `evidence_type`, `source_locator`, `verification_status`.
+
+### monte_carlo_disturbances_seed42.csv
+500 records. Exact columns: `trial_id`, `seed`, `retort_alpha_mult`, `retort_T0_C`, `retort_z_bot_C`, `retort_dT_steam_dip_C`, `uht_k_foul_mult`, `uht_protein_load_mult`, `drying_X0_db`, `drying_Deff_mult`, `drying_RH_amb_pct`, `baking_RS0_g_kg`, `baking_H_oven_mult`, `extrusion_X_feed_wb`, `extrusion_K0_mult`, `ferm_CX0_g_L`, `ferm_qO2_max_mult`, `ferm_kLa_mult`, `coldchain_T_amb_offset_C`, `coldchain_N0_SSO_log10`, `coldchain_N0_Lm_log10`.
+
+## Parameter contract
+
+`process_id` and `symbol` form a unique key. `chapter` locates the intended application; `parameter` is a descriptive label. `value` is numeric in the row-specific `unit`; units are not uniformly SI. `uncertainty_sd` is a non-negative scenario standard deviation in the same units, not a validated standard uncertainty. Zero denotes a fixed scenario input. `source_reference` retains the original contextual citation; it does not establish extraction of that value.
+
+`evidence_type` is currently `scenario_assumption_unverified` for every row. `source_locator` is empty pending a primary-source page/table or measurement record. `verification_status` records that value-level provenance is unestablished. Reclassification as observed, estimated, literature-derived or regulatory requires a documented source and domain of application. Blank provenance must not be interpreted as validated.
+
+CSV reference fields containing commas are quoted. The runner checks the exact schema, complete rows, finite values, non-negative standard deviations and unique keys.
+
+## Monte Carlo contract
+
+`trial_id` is a unique integer and `seed` is 42 in all records. A suffix `_mult` denotes a dimensionless multiplier; `_C` a temperature or temperature increment in degrees Celsius, according to the variable name; `_pct` a percentage on the 0–100 scale; `_db` dry-basis water mass per dry-solids mass; `_wb` wet-basis mass fraction; `_g_kg` grams per kilogram; `_g_L` grams per litre; `_log10` log10 CFU per gram. These interpretations follow the scenario variable names and must be checked against each model before reuse. The raw numeric draws are retained; no undocumented resampling is performed.
+
+## Existing outputs and regression references
+
+22 result CSVs and 22 reference CSVs are present. Each file has its own header; the inventory below is generated from those headers. Historical model names are not implementation certificates. Several Ch04 curves access simulator truth and several ablation/timing values are assigned constants. These entries are excluded from empirical architecture and hardware-performance claims.
+
+Matching a stored reference tests numerical regression only. A missing reference must raise an error. Hashes establish file integrity, not external validation or provenance.
+
+- `Ch02_Transport_Verification_Benchmark.csv`: 6 rows; `grid_nodes_N`, `dx_mm`, `Fo_eval`, `analytical_center_theta`, `fvm_center_theta`, `abs_error_L2`, `abs_error_Linf`, `observed_convergence_order_p`, `lumped_Bi001_discrepancy`, `mass_enthalpy_balance_residual`, `evidence_status`.
+- `Ch03_Data_Readiness_Gate_ROC_Benchmark.csv`: 4 rows; `gate_configuration`, `precision`, `recall_sensitivity`, `f1_score`, `false_alarm_rate_pct`, `constructed_diagnostic_score`, `mean_detection_latency_s`, `residual_post_gate_bias_K`, `evidence_status`.
+- `Ch04_Ablation_and_Identifiability_Benchmark.csv`: 5 rows; `architecture_variant`, `fim_condition_number`, `param_correlation_rho`, `in_domain_RMSE_kg_kg_db`, `extrapolation_OOD_RMSE_kg_kg_db`, `mass_balance_residual`, `physical_violation_rate_pct`, `evidence_status`.
+- `Ch04_Drying_Extrapolation_Benchmark.csv`: 4 rows; `model_architecture`, `in_domain_RMSE_kg_kg_db`, `extrapolation_OOD_RMSE_kg_kg_db`, `in_domain_RMSEP_wt_pct`, `extrapolation_OOD_RMSEP_wt_pct`, `physical_violation_rate_pct`, `online_inference_latency_ms`, `evidence_status`.
+- `Ch05_Observer_Comparison_and_WCET_Benchmark.csv`: 5 rows; `observer_method`, `Rf_rmse_mean_m2KW`, `Rf_rmse_sd_m2KW`, `Rf_rmse_95CI_low`, `Rf_rmse_95CI_high`, `tau_min_95pct_abs_error_s`, `credible_95_coverage_pct`, `assigned_mean_time_ms`, `assigned_tail_time_ms`, `deadline_miss_rate_pct`, `evidence_status`.
+- `Ch05_UHT_Fouling_Observer_Benchmark.csv`: 1 rows; `scenario`, `R_f_true_8h_m2K_W`, `UKF_Rf_RMSE_m2K_W`, `tau_min_clean_s`, `tau_min_8h_s`, `tau_min_95pct_abs_error_s`, `T_hold_nominal_C`, `T_hold_NMPC_compensated_8h_C`, `target_lethality_F0_min`, `evidence_status`.
+- `Ch06_MAP_Salmon_Pallet_FEFO_Benchmark.csv`: 3 rows; `pallet_id`, `batch_id`, `y0_log10_CFU_g`, `zone_T_eff_degC`, `t_eq_120h_at_2C_h`, `static_shelf_life_at_2C_h`, `y_120h_mean_log10_CFU_g`, `y_120h_sd_log10_CFU_g`, `RSL_det_at_2C_h`, `RSL_05_at_2C_h`, `RSL_det_at_3C_h`, `RSL_05_at_3C_h`, `FEFO_disposition`, `evidence_status`.
+- `Ch07_Table_7_4_Safety_Shield_Benchmark.csv`: 5 rows; `metric`, `static_HACCP`, `unshielded_eMPC`, `proposed_dCCP_CBF_QP`, `unit`, `evidence_status`.
+- `Ch08_Table_8_2_Spray_Dryer_Sensitivity.csv`: 7 rows; `parameter`, `Morris_mu_star_g_per_kg`, `Moisture_S_i`, `Moisture_S_Ti`, `Moisture_Borgonovo_delta`, `BetaLg_S_i`, `BetaLg_S_Ti`, `evidence_status`.
+- `Ch08_Table_8_3_Conformal_NIR_Benchmark.csv`: 6 rows; `method`, `overall_PICP_95_pct`, `drift_period_PICP_95_pct`, `MPIW_95_wt_pct`, `Winkler_score_wt_pct`, `CRPS_wt_pct`, `evidence_status`.
+- `Ch09_Pareto_and_Exergy_Verification_Benchmark.csv`: 5 rows; `control_regime`, `throughput_kg_per_h`, `specific_energy_MJ_per_kg`, `gouy_stodola_exergy_dest_MJ_per_kg`, `entropy_generation_kJ_per_kgK`, `second_law_exergy_efficiency_pct`, `nutrient_retention_pct`, `disturbance_constraint_violation_pct`, `energy_balance_closure_residual`, `evidence_status`.
+- `Ch10_Table_10_4_Scenario_IA_Retort_Benchmark.csv`: 4 rows; `scenario`, `control_paradigm`, `F0_mean_min`, `F0_sd_min`, `F0_conformal_LB_99_9_min`, `under_sterilised_batches_count`, `under_sterilised_batches_pct`, `thiamine_retention_mean_pct`, `thiamine_retention_sd_pct`, `surface_cook_C0_mean_min`, `surface_cook_C0_sd_min`, `batch_cycle_time_mean_min`, `batch_cycle_time_sd_min`, `specific_steam_exergy_kJ_per_can`, `specific_steam_consumption_MJ_per_kg`, `evidence_status`.
+- `Ch10_Table_10_4_Scenario_IB_UHT_Benchmark.csv`: 3 rows; `scenario`, `control_paradigm`, `T_prehold_C`, `run_length_mean_h`, `run_length_sd_h`, `CIP_cycles_per_48h`, `mean_CIP_duration_min`, `productive_milk_output_48h_tonnes`, `specific_steam_pumping_energy_MJ_per_t`, `specific_CIP_effluent_L_per_t`, `chemical_index_C_star_mean`, `evidence_status`.
+- `Ch11_Scenario_IIA1_Drying_Dossier.csv`: 4 rows; `control_tier`, `X_f_mean_db`, `X_f_sd_db`, `aw_mean`, `aw_violation_pct`, `vitC_retention_pct`, `smer_kg_per_kWh`, `sec_MJ_per_kg_H2O`, `exergy_eff_pct`, `evidence_status`.
+- `Ch11_Scenario_IIA2_Baking_Dossier.csv`: 4 rows; `control_tier`, `crust_Lstar_mean`, `crust_Lstar_sd`, `acrylamide_mean_ug_per_kg`, `acrylamide_sd_ug_per_kg`, `eu_300_exceedance_pct`, `salmonella_lethality_log10`, `specific_oven_energy_MJ_per_kg`, `evidence_status`.
+- `Ch11_Scenario_IIB_Extrusion_Dossier.csv`: 4 rows; `control_tier`, `sei_mean`, `sme_mean_kJ_per_kg`, `sme_sd_kJ_per_kg`, `die_pressure_mean_MPa`, `die_pressure_sd_MPa`, `settling_time_s`, `off_spec_scrap_pct`, `evidence_status`.
+- `Ch11_Table_11_4_Drying_Baking_Extrusion_Benchmark.csv`: 20 rows; `scenario`, `metric`, `tier1_fixed_recipe`, `tier2_open_loop_mechanistic`, `tier3_unconstrained_black_box_ml`, `tier4_trustworthy_digital_twin`, `evidence_status`.
+- `Ch12_Table_12_3_Scenario_IIIA_Fermentation_Benchmark.csv`: 4 rows; `scenario`, `control_strategy`, `biomass_RMSE_X_g_L`, `sugar_RMSE_S_g_L`, `ethanol_RMSE_P_g_L`, `mass_balance_violation_pct`, `final_biomass_C_X_g_per_L_mean`, `final_biomass_C_X_sd`, `effective_yield_YXS_g_g_mean`, `effective_yield_YXS_sd`, `cumulative_ethanol_overflow_g_per_L_mean`, `ethanol_sd`, `DO_starvation_violations_pct`, `cooling_jacket_saturation_events_pct`, `specific_electrical_energy_kWh_per_kg_X`, `energy_sd`, `PICP_99_pct`, `evidence_status`.
+- `Ch12_Table_12_4_Scenario_IIIB_ColdChain_Benchmark.csv`: 4 rows; `scenario`, `dispatch_policy`, `core_temp_RMSE_degC_mean`, `core_temp_RMSE_degC_sd`, `RSL_RMSE_h_mean`, `RSL_RMSE_h_sd`, `PICP_99_lower_bound_pct`, `spoilage_waste_at_retail_pct`, `premature_false_positive_rejection_pct`, `unsafe_pallets_reaching_retail_Lm_gt_100_CFUg_pct`, `refrigeration_compressor_energy_kWh_per_pallet`, `net_value_retention_vs_FIFO_EUR_per_pallet`, `evidence_status`.
+- `Ch13_Counterfactual_Tiers_and_LCA_Sensitivity.csv`: 4 rows; `architecture_tier`, `portfolio_capex_kEUR`, `portfolio_opex_kEUR_yr`, `portfolio_gross_savings_kEUR_yr`, `portfolio_npv_5yr_kEUR`, `portfolio_var_5pct_npv_kEUR`, `process_ghg_saving_tCO2e_yr`, `digital_infra_ghg_burden_tCO2e_yr`, `net_ghg_reduction_tCO2e_yr`, `evidence_status`.
+- `Ch13_Tables_13_4_and_13_5_TechnoEconomic_and_LCA_Summary.csv`: 5 rows; `case_study`, `capex_kEUR`, `annual_opex_kEUR_per_yr`, `annual_gross_savings_kEUR_per_yr`, `net_pretax_cashflow_kEUR_per_yr`, `net_aftertax_cashflow_kEUR_per_yr`, `NPV_5yr_EUR`, `NPV_5yr_kEUR`, `VaR_5pct_NPV_kEUR`, `discounted_payback_yr`, `IRR_pct`, `scope1_2_energy_saving_pct`, `scope3_food_waste_reduction_pct`, `evidence_status`.
+- `M1_to_M6_foundational_benchmarks.csv`: 9 rows; `module_id`, `chapter`, `metric`, `hybrid_twin_value`, `baseline_value`, `whitebox_value`, `unit`, `evidence_status`.
+
+
+## Result evidence metadata added after re-audit
+
+Every result and regression-reference CSV carries `evidence_status`. For Ch03 it denotes prescribed vectors rather than an empirical ROC experiment; for both Ch04 files it denotes legacy constructed illustrations rather than trained comparators; for the Ch05 observer table it denotes assigned error and timing quantities; and for the Ch13 tier table it denotes assigned counterfactual portfolio values. Other outputs remain constructed in-silico scenarios. Historical names such as `constructed_diagnostic_score`, `95CI` and `assigned_tail_time_ms` do not confer the corresponding statistical or hardware validation. The metadata migration retains all pre-existing numerical fields.
+
+
+## Value-level provenance and field-meaning register
+
+The sibling `../evidence_register.json` contains one provenance record for each of the 131 input parameters. It records the actual value, units and scenario SD and explicitly leaves primary locators and physical transferability unverified. There are still exactly two computational input CSVs. The register is metadata, not a new dataset of measurements.
+
+For `Ch02_Transport_Verification_Benchmark.csv`, the historical `abs_error_L2` column is the absolute difference at the slab centre rather than a spatial L2 norm; `abs_error_Linf` is 1.18 times that difference rather than a separately evaluated maximum; and `mass_enthalpy_balance_residual` is assigned as `1.1e-15*sqrt(N)`, not calculated from boundary-flux closure. The code's `N` divides the half-thickness and is not a supplied mesh-connectivity record. These interpretations are retained in the evidence register and Chapter 2.
+
+Bibliography metadata verification does not promote a contextual citation in the parameter CSV to a verified numeric source. A verified publication identity and a verified parameter extraction are separate records.
+
+
+## Appended scalar verification fields in the existing Ch02 result
+
+The six historical numeric rows and columns remain intact. They now carry the overall evidence label `legacy_modal_illustration_plus_executed_scalar_FVM_verification`; `legacy_evidence_status` retains the historical meaning, while `verification_evidence_status` identifies the executed scalar limit.
+
+`verification_cells`, `verification_dx`, `verification_dt`, `verification_steps` and `verification_final_time` define the dimensionless mesh and integration. `spatial_L2_mass` and `spatial_L2_enthalpy` are sqrt(h*sum(error^2)) over every cell centre; `spatial_Linf_mass` and `spatial_Linf_enthalpy` are maximum absolute sampled-field errors. `spatial_order_mass` is the base-2 log error ratio under cell-count doubling; zero in the first row is a sentinel for unavailable order.
+
+`mass_flux_residual_max` and `enthalpy_flux_residual_max` are maxima over all time steps of absolute inventory change minus trapezoid-integrated net boundary influx, divided by the respective positive initial inventory. The enthalpy field is normalised excess sensible enthalpy with constant coefficients; latent heat, work and advective enthalpy are excluded. `temporal_halving_L2_difference` compares the concentration field with an otherwise identical half-step run. These actual calculations are distinct from the historical fields `abs_error_L2`, `abs_error_Linf` and `mass_enthalpy_balance_residual`, whose legacy semantics remain unchanged.
+
+The analytical problem and all six computed records are also stored under `mathematical_checks.scalar_diffusion_verification` in the existing evidence register. Figure 2.1 uses the new spatial-error columns. No additional data file is introduced.

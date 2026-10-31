@@ -1,0 +1,6 @@
+metric,static_HACCP,unshielded_eMPC,proposed_dCCP_CBF_QP,unit,evidence_status
+Case 1: Minimum Core Log Reduction R_cs During Fouling + Steam Dip (log10),3.92,4.94,5.46,log10_reductions,constructed_in_silico_scenario_not_independent_industrial_validation
+Case 2: Final Acrylamide Concentration [AA](t_f) on High-Sugar Lot (ug/kg),685.0,498.0,228.0,ug/kg,constructed_in_silico_scenario_not_independent_industrial_validation
+Case 2: Lots Exceeding EU Benchmark (500 ug/kg) Over 200 Runs (%),47.0,4.5,0.0,percent_lots,constructed_in_silico_scenario_not_independent_industrial_validation
+Case 2: Mean Core Salmonella Lethality R_core(t_f) (log10),7.85,6.52,6.58,log10_reductions,constructed_in_silico_scenario_not_independent_industrial_validation
+Case 2: Specific Frying Energy (MJ/kg finished product),2.92,2.59,2.66,MJ/kg,constructed_in_silico_scenario_not_independent_industrial_validation

@@ -1,0 +1,6 @@
+observer_method,Rf_rmse_mean_m2KW,Rf_rmse_sd_m2KW,Rf_rmse_95CI_low,Rf_rmse_95CI_high,tau_min_95pct_abs_error_s,credible_95_coverage_pct,assigned_mean_time_ms,assigned_tail_time_ms,deadline_miss_rate_pct,evidence_status
+1_OpenLoop_Nominal_Model,0.000118,2.4e-05,7.1e-05,0.000165,0.41,41.2,0.18,0.31,0.0,prescribed_observer_metrics_not_measured_or_multiseed
+2_Extended_Kalman_Filter_EKF,2.14e-05,3.2e-06,1.51e-05,2.77e-05,0.08,88.5,0.85,1.42,0.0,prescribed_observer_metrics_not_measured_or_multiseed
+3_Unscented_Kalman_Filter_UKF,1.06e-05,1.6e-06,7.46e-06,1.37e-05,0.03,95.2,2.64,4.18,0.0,prescribed_observer_metrics_not_measured_or_multiseed
+4_Moving_Horizon_Estimation_MHE_N15,8.9e-06,1.3e-06,6.35e-06,1.14e-05,0.02,96.0,18.4,34.6,0.0,prescribed_observer_metrics_not_measured_or_multiseed
+5_Particle_Filter_PF_Np500,9.4e-06,1.5e-06,6.46e-06,1.23e-05,0.03,96.4,64.2,118.5,0.0,prescribed_observer_metrics_not_measured_or_multiseed

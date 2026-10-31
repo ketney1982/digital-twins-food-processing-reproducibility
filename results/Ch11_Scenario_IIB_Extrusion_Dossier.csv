@@ -1,0 +1,5 @@
+control_tier,sei_mean,sme_mean_kJ_per_kg,sme_sd_kJ_per_kg,die_pressure_mean_MPa,die_pressure_sd_MPa,settling_time_s,off_spec_scrap_pct,evidence_status
+1_Tier1_Fixed_Recipe_Baseline,4.1,557.3,57.9,6.55,0.87,420.0,62.8,constructed_in_silico_scenario_not_independent_industrial_validation
+2_Tier2_Open_Loop_Mechanistic,4.16,562.1,40.5,6.5,0.6,77.8,47.2,constructed_in_silico_scenario_not_independent_industrial_validation
+3_Tier3_Unconstrained_BlackBox_ML,4.17,529.0,18.3,6.44,0.3,22.2,17.6,constructed_in_silico_scenario_not_independent_industrial_validation
+4_Tier4_Trustworthy_Digital_Twin,4.2,522.8,9.4,6.42,0.16,7.7,0.0,constructed_in_silico_scenario_not_independent_industrial_validation

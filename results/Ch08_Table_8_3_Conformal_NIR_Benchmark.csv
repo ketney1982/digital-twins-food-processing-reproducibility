@@ -1,0 +1,7 @@
+method,overall_PICP_95_pct,drift_period_PICP_95_pct,MPIW_95_wt_pct,Winkler_score_wt_pct,CRPS_wt_pct,evidence_status
+1_Unadjusted_Single_Neural_Network_Gaussian_NLL,69.2,52.6,0.65,2.94,0.197,constructed_in_silico_scenario_not_independent_industrial_validation
+2_Monte_Carlo_Dropout_M30,76.2,62.1,0.76,2.53,0.193,constructed_in_silico_scenario_not_independent_industrial_validation
+3_Heteroscedastic_Deep_Ensemble_M10,84.8,68.9,0.94,2.07,0.188,constructed_in_silico_scenario_not_independent_industrial_validation
+4_Static_Split_Conformal,90.8,75.3,1.11,1.71,0.185,constructed_in_silico_scenario_not_independent_industrial_validation
+5_Conformalised_Quantile_Regression_Static_CQR,92.1,78.4,1.16,1.68,0.184,constructed_in_silico_scenario_not_independent_industrial_validation
+6_Weighted_Adaptive_Conformal_Algorithm_8_1,94.6,94.7,1.32,1.6,0.184,constructed_in_silico_scenario_not_independent_industrial_validation

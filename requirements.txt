@@ -1,0 +1,12 @@
+# Environment in which the archived result CSVs of this package were last regenerated and checked (31 October 2026):
+# Windows 11, Python 3.11.16, CPU only. The same pins as verification/requirements.txt, so that one environment
+# reproduces run_all_benchmarks.py, the Chapter 9 controller comparison and the verification scripts.
+# The regression references (benchmarks/*.csv) are compared with rtol 1e-9 and pass in this environment. An earlier
+# run (28 October 2026, recorded in the previous manifest) used Python 3.13.5, NumPy 2.2.6, SciPy 1.16.1, pandas 2.2.3
+# and Pillow 10.4.0; bitwise identity between the two environments is not claimed. Figure PNG files are byte-identical
+# only with the same Matplotlib, FreeType, fonts and Pillow; see figure_environment in results/reproducibility_manifest.json.
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+matplotlib==3.11.1
+Pillow==12.3.0

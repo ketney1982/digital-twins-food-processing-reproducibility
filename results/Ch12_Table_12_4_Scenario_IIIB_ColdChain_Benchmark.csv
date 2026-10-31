@@ -1,0 +1,5 @@
+scenario,dispatch_policy,core_temp_RMSE_degC_mean,core_temp_RMSE_degC_sd,RSL_RMSE_h_mean,RSL_RMSE_h_sd,PICP_99_lower_bound_pct,spoilage_waste_at_retail_pct,premature_false_positive_rejection_pct,unsafe_pallets_reaching_retail_Lm_gt_100_CFUg_pct,refrigeration_compressor_energy_kWh_per_pallet,net_value_retention_vs_FIFO_EUR_per_pallet,evidence_status
+Scenario_IIIB_240_Pallet_ColdChain_Benchmark,1_Single_ReturnAir_Logger_Static_FIFO,2.46,0.86,51.7,21.4,N/A,15.42,0.0,0.42,18.59,0.0,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IIIB_240_Pallet_ColdChain_Benchmark,2_Peripheral_IoT_Surface_Arrhenius_S_FEFO,1.35,0.59,27.9,16.5,32.5,7.92,0.0,0.42,18.59,195.0,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IIIB_240_Pallet_ColdChain_Benchmark,3_18Zone_Zonal_ROM_Point_Estimate_FEFO,0.43,0.43,15.4,11.9,53.8,2.5,0.42,0.42,16.09,329.3,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IIIB_240_Pallet_ColdChain_Benchmark,4_Trustworthy_IVVO_DT_Algorithm_12_2,0.13,0.05,2.4,1.2,100.0,0.42,0.0,0.0,13.84,391.0,constructed_in_silico_scenario_not_independent_industrial_validation

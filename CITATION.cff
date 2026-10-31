@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package and benchmark suite, please cite the monograph and software package as below."
+title: "Computational Illustrations for Trustworthy Digital Twins for Food Processing"
+version: "2.0.0"
+license: "MIT"
+repository-code: "https://github.com/ketney1982/digital-twins-food-processing-reproducibility"
+url: "https://github.com/ketney1982/digital-twins-food-processing-reproducibility"
+date-released: "2026-10-31"
+type: software
+authors:
+  - family-names: "Ketney"
+    given-names: "Otto"
+    orcid: "https://orcid.org/0000-0003-1638-1154"
+keywords:
+  - food process modelling
+  - food process engineering
+  - coupled heat and mass transfer
+  - chemometrics
+  - hyperspectral imaging
+  - predictive microbiology
+  - model predictive control
+  - digital twin

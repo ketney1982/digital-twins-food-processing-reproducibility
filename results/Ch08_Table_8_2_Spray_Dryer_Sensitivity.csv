@@ -1,0 +1,8 @@
+parameter,Morris_mu_star_g_per_kg,Moisture_S_i,Moisture_S_Ti,Moisture_Borgonovo_delta,BetaLg_S_i,BetaLg_S_Ti,evidence_status
+"theta_1: ln D_eff,0",8.44,0.273,0.283,0.154,0.062,0.041,constructed_in_silico_scenario_not_independent_industrial_validation
+"theta_2: E_a,diff",8.0,0.201,0.235,0.122,0.034,0.034,constructed_in_silico_scenario_not_independent_industrial_validation
+theta_3: beta_crust,4.12,0.083,0.081,0.064,0.042,0.019,constructed_in_silico_scenario_not_independent_industrial_validation
+theta_4: d_50 (Droplet size),11.29,0.423,0.449,0.23,0.152,0.161,constructed_in_silico_scenario_not_independent_industrial_validation
+theta_5: U_wall (Wall loss),1.04,0.026,0.004,0.02,0.021,0.003,constructed_in_silico_scenario_not_independent_industrial_validation
+"theta_6: ln k_ref,beta",0.0,0.02,0.0,0.015,0.403,0.423,constructed_in_silico_scenario_not_independent_industrial_validation
+"theta_7: E_a,beta",0.0,0.02,0.0,0.015,0.332,0.357,constructed_in_silico_scenario_not_independent_industrial_validation

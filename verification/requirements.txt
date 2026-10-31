@@ -1,0 +1,8 @@
+# Environment in which the verification scripts were run (Windows 11, Python 3.11.16, CPU only).
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+scikit-learn==1.9.1
+torch==2.15.0+cpu        # install from https://download.pytorch.org/whl/cpu; import torch before numpy/scipy/sklearn on Windows
+matplotlib==3.11.1
+pymupdf==1.28.2          # only for extract_apple_drying_data.py

@@ -1,0 +1,5 @@
+architecture_tier,portfolio_capex_kEUR,portfolio_opex_kEUR_yr,portfolio_gross_savings_kEUR_yr,portfolio_npv_5yr_kEUR,portfolio_var_5pct_npv_kEUR,process_ghg_saving_tCO2e_yr,digital_infra_ghg_burden_tCO2e_yr,net_ghg_reduction_tCO2e_yr,evidence_status
+Tier_0_Legacy_PID_and_Static_FIFO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,assigned_counterfactual_portfolio_not_measured_abatement
+Tier_1_Offline_Mechanistic_Digital_Model,590.0,115.0,540.0,812.4,715.0,410.0,4.5,405.5,assigned_counterfactual_portfolio_not_measured_abatement
+Tier_2_RealTime_Digital_Shadow_Observer_Conformal,1240.0,235.0,1380.0,2418.6,2195.0,1085.0,14.2,1070.8,assigned_counterfactual_portfolio_not_measured_abatement
+Tier_3_ClosedLoop_Trustworthy_Digital_Twin_eNMPC_CBF,1900.0,361.0,2320.0,4345.6,4070.8,1890.0,22.8,1867.2,assigned_counterfactual_portfolio_not_measured_abatement

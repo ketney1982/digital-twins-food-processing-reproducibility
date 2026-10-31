@@ -1,0 +1,490 @@
+{
+  "scientific_status": "conceptual_methodological_monograph_with_computational_illustrations",
+  "evidence_register_sha256": "47a2698686dc67497afb8b1440c51ceb9943bf3f0c4865b3dabc19b5e16c11b6",
+  "evidence_register_validation": {
+    "parameter_records": 131,
+    "parameter_status": "assumed_unverified_not_physically_authenticated",
+    "bibliographic_records": 596,
+    "distinct_current_DOIs": 554,
+    "DOI_metadata_screen_counts": {
+      "V1_automatically_screened_fields_agree": 469,
+      "V1_metadata_adjudicated": 85
+    },
+    "full_text_claim_support": "not_exhaustively_adjudicated",
+    "arrhenius_raw_condition_number": 8581621.621621618,
+    "arrhenius_scaled_condition_number": 1.000000000000002,
+    "scalar_model_exit_upper_bound": 0.25,
+    "carbon_box_lower_tCO2e_year": 194.0000000000001,
+    "carbon_box_upper_tCO2e_year": 1398.8000000000002,
+    "corrected_references_whose_DOI_is_not_cited_in_the_chapters": 8,
+    "industrial_safety_certificate": "not_supplied"
+  },
+  "editorial_validation": {
+    "scope": "editorial_and_arithmetic_consistency_only",
+    "docx_count": 15,
+    "csv_reference_occurrences": 178,
+    "unresolved_csv_references": 0,
+    "key_gate_observer_and_carbon_checks": "passed",
+    "independent_industrial_validation": "not_established",
+    "complete_bibliographic_authentication": "not_performed"
+  },
+  "claim_evidence_register": [
+    {
+      "claim_id": "C03-01",
+      "location": "Ch03 \u00a73.9.4 / Figure 3.1",
+      "claim": "The complete-gate assigned score is 0.996; it is not empirical AUROC.",
+      "evidence_type": "prescribed_diagnostic_vectors_not_empirical_ROC",
+      "source_file": "results/Ch03_Data_Readiness_Gate_ROC_Benchmark.csv",
+      "source_sha256": "1f97e0ba5bf9d492f35726fea10fffd2a31457f03ad155d04159ba6418f8a72c",
+      "method": "Prescribed precision/recall vectors, algebraic F1 and constructed score; no event-level ROC experiment.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    },
+    {
+      "claim_id": "C04-01",
+      "location": "Ch04 \u00a74.7.5\u20134.8.5 / Figure 4.1",
+      "claim": "Legacy architecture labels do not identify independently trained comparators.",
+      "evidence_type": "legacy_constructed_illustration_not_trained_architecture_performance",
+      "source_file": "results/Ch04_Drying_Extrapolation_Benchmark.csv",
+      "source_sha256": "d3e5a8285003462213cffd8f96237cde88f64927bcce931a1dcc2872f2d43ad7",
+      "method": "Constructed curves use simulator truth and chosen factors; empirical rankings withdrawn.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    },
+    {
+      "claim_id": "C04-02",
+      "location": "Ch04 \u00a74.8.5 / Appendix B.1",
+      "claim": "Prescribed ablation entries are separate from the corrected analytical scaling example.",
+      "evidence_type": "legacy_constructed_illustration_not_trained_architecture_performance",
+      "source_file": "results/Ch04_Ablation_and_Identifiability_Benchmark.csv",
+      "source_sha256": "e08651b9c1b1eb4428d617a6087326b0f6e8118d32104a0fdc61c4af38a922fe",
+      "method": "No independent training or ablation; raw and scaled Fisher matrices have different coordinates.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    },
+    {
+      "claim_id": "C05-01",
+      "location": "Ch05 \u00a75.10.3 / Table 5.5 / Figure 5.1",
+      "claim": "Five design slots contain assigned errors, ranges, coverage and times; no measured WCET or Gramian.",
+      "evidence_type": "prescribed_observer_metrics_not_measured_or_multiseed",
+      "source_file": "results/Ch05_Observer_Comparison_and_WCET_Benchmark.csv",
+      "source_sha256": "db6ef9be5cfe9daf831dc99db79ef115cb1a0b7eb538726002bb8aecaa548378",
+      "method": "Directly prescribed dictionary values; illustrated curves are imposed reference plus noise, not observer implementations.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    },
+    {
+      "claim_id": "C08-01",
+      "location": "Ch08 \u00a78.9 / Figure 8.1",
+      "claim": "Sensitivity and coverage summaries are constructed in-silico illustrations.",
+      "evidence_type": "constructed_in_silico_scenario_not_independent_industrial_validation",
+      "source_file": "results/Ch08_Table_8_3_Conformal_NIR_Benchmark.csv",
+      "source_sha256": "2eadf6d8b23a388f350180aca6a37569bd22b3849f1b720d6f896bfe6c55d42e",
+      "method": "Synthetic scenario calculations; no independent industrial dataset or conditional batch-safety certificate.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    },
+    {
+      "claim_id": "C13-01",
+      "location": "Ch13 \u00a713.5.4 / Table 13.4b / Figure 13.1",
+      "claim": "Assigned net reductions are 0, 405.5, 1070.8 and 1867.2 tCO2e/yr; Tier3 minus Tier2 is 796.4.",
+      "evidence_type": "assigned_counterfactual_portfolio_not_measured_abatement",
+      "source_file": "results/Ch13_Counterfactual_Tiers_and_LCA_Sensitivity.csv",
+      "source_sha256": "83ca2714712bfa5a607da65ce91e93b86b6ec3d5e797b26cdd49598c4ce54f2a",
+      "method": "Assigned annual portfolio values; arithmetic gross minus infrastructure; no measured abatement or carbon payback.",
+      "version_scope": "2026-10-27 re-audit correction",
+      "seed_scope": "42 where the generator actually uses stochastic draws; prescribed rows have no sampling seed",
+      "uncertainty_status": "Assigned or scenario-derived; no independent empirical confidence interval certified",
+      "conditions": "As defined by the generator; not transferable to a plant without independent validation",
+      "validation_actor": "automated editorial checks only; no external scientific or process-authority sign-off",
+      "final_status": "retained_as_illustration_only"
+    }
+  ],
+  "decisive_claim_evidence_limits": [
+    {
+      "claim_id": "C01-01",
+      "location": "Ch1; Tables 1.5\u20131.7",
+      "supported_statement": "Six-layer integration and falsifiable criteria are specified.",
+      "limitation": "V1 for specification; comparative novelty and H1\u2013H5 unverified."
+    },
+    {
+      "claim_id": "C02-01",
+      "location": "Ch2; Ch02 CSV; scalar_fvm_verification",
+      "supported_statement": "Scalar cell-centred diffusion converges with computed spatial norms and flux closure.",
+      "limitation": "Executed limiting problem; no coupled food-model validation."
+    },
+    {
+      "claim_id": "C02-02",
+      "location": "Ch2; original abs_error_L2/Linf columns",
+      "supported_statement": "Historical centre error, prescribed multiplier and assigned balance remain identifiable.",
+      "limitation": "V1 semantics; legacy columns cannot prove spatial PDE conservation."
+    },
+    {
+      "claim_id": "C03-01",
+      "location": "Ch3 \u00a73.9.4; Ch03 diagnostic CSV",
+      "supported_statement": "0.996 is a prescribed score, not measured AUROC.",
+      "limitation": "V1 construction; detector performance V3."
+    },
+    {
+      "claim_id": "C04-01",
+      "location": "Ch4 \u00a7\u00a74.7.5\u20134.8.5; both Ch04 CSVs",
+      "supported_statement": "Legacy labels do not represent four independently trained architectures.",
+      "limitation": "Rankings withdrawn; code, seeds and predictions required."
+    },
+    {
+      "claim_id": "C05-01",
+      "location": "Ch5 \u00a75.10.3; Table 5.5",
+      "supported_statement": "Observer errors, intervals and times are assigned.",
+      "limitation": "No measured RMSE/coverage, HiL or WCET."
+    },
+    {
+      "claim_id": "C06-01",
+      "location": "Ch6 \u00a7\u00a76.6\u20136.7; FEFO CSV",
+      "supported_statement": "Quality/RSL scenario is conditional on assumed kinetics.",
+      "limitation": "Independent sensory/lab and time-to-event calibration absent."
+    },
+    {
+      "claim_id": "C07-01",
+      "location": "Ch7 \u00a77.6; Appendix B.2",
+      "supported_statement": "Finite-horizon bound holds under stated hypotheses; scalar bound is 0.25.",
+      "limitation": "No food-process certificate, joint generator bound or process approval."
+    },
+    {
+      "claim_id": "C08-01",
+      "location": "Ch8 \u00a78.9; Table 8.3",
+      "supported_statement": "Synthetic coverage summaries do not establish external conditional coverage.",
+      "limitation": "Independent predictions, calibration/test domains and shift evaluation absent."
+    },
+    {
+      "claim_id": "C09-01",
+      "location": "Ch9 \u00a79.7; Pareto/exergy CSV",
+      "supported_statement": "Constructed points illustrate objective/accounting choices.",
+      "limitation": "No qualified frontier, KKT record or closed-loop feasibility evidence."
+    },
+    {
+      "claim_id": "C10-01",
+      "location": "Ch10 \u00a7\u00a710.6\u201310.9; retort/UHT CSVs",
+      "supported_statement": "Reduced thermal scenarios are reproducible under their inputs.",
+      "limitation": "Heat-distribution/penetration and RTD qualification absent."
+    },
+    {
+      "claim_id": "C11-01",
+      "location": "Ch11 \u00a711.8; three dossier CSVs",
+      "supported_statement": "Drying, baking and extrusion files are assigned endpoint summaries.",
+      "limitation": "Complete trajectories, physical residuals and product validation absent."
+    },
+    {
+      "claim_id": "C12-01",
+      "location": "Ch12 \u00a7\u00a712.7\u201312.9; two scenario CSVs",
+      "supported_statement": "Biological and cold-chain validation domains remain separate.",
+      "limitation": "No independent batch/route transfer or lot qualification."
+    },
+    {
+      "claim_id": "C13-01",
+      "location": "Ch13 \u00a713.5.4; tier CSV",
+      "supported_statement": "1,867.2 \u2212 1,070.8 = 796.4 t CO2e/year for assigned tiers.",
+      "limitation": "V1 arithmetic; causal abatement and investment benefit V3."
+    },
+    {
+      "claim_id": "P01-01",
+      "location": "Appendix G; parameter_provenance.records",
+      "supported_statement": "All 131 input values lack verified primary numeric locators.",
+      "limitation": "Scenario assumptions; no physical provenance promoted."
+    },
+    {
+      "claim_id": "B01-01",
+      "location": "Consolidated bibliography; bibliography.records",
+      "supported_statement": "596 records and 554 distinct DOIs are inventoried.",
+      "limitation": "Metadata identity differs from claim support; full-text audit incomplete."
+    },
+    {
+      "claim_id": "N01-01",
+      "location": "Appendix D; official document scopes",
+      "supported_statement": "CWA and adapted medical-device credibility guidance have distinct roles.",
+      "limitation": "No automatic food-process conformity or certification."
+    }
+  ],
+  "scalar_diffusion_verification": {
+    "status": "executed_numerical_verification_not_food_process_validation",
+    "code": "generate_expanded_benchmarks_and_figures.py:scalar_fvm_verification",
+    "equation": "u_t=u_xx; unit interval; zero Dirichlet faces; final dimensionless time 0.1",
+    "initial_concentration": "sin(pi*x)",
+    "initial_excess_enthalpy": "sin(pi*x)+0.25*sin(3*pi*x)",
+    "method": "cell-centred finite volume; Crank-Nicolson; banded linear solve",
+    "norms": "sqrt(h*sum(error**2)); max(abs(error)) over every cell centre",
+    "flux_check": "maximum time-history inventory minus initial inventory minus trapezoidal net boundary influx, normalised by initial inventory",
+    "acceptance": {
+      "fine_grid_order_range": [
+        1.95,
+        2.05
+      ],
+      "normalised_flux_residual_upper_limit": 1e-09,
+      "temporal_halving_to_spatial_error_upper_ratio": 0.01
+    },
+    "results": [
+      {
+        "verification_cells": 5.0,
+        "verification_dx": 0.2,
+        "verification_dt": 0.005,
+        "verification_steps": 20.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 0.008532780833384705,
+        "spatial_Linf_mass": 0.012067174379329804,
+        "spatial_L2_enthalpy": 0.008535486056956995,
+        "spatial_Linf_enthalpy": 0.011763287959985269,
+        "mass_flux_residual_max": 3.4307778215552905e-16,
+        "enthalpy_flux_residual_max": 3.9146559018796956e-16,
+        "temporal_halving_L2_difference": 3.7035763660510906e-05,
+        "spatial_order_mass": 0.0
+      },
+      {
+        "verification_cells": 10.0,
+        "verification_dx": 0.1,
+        "verification_dt": 0.00125,
+        "verification_steps": 80.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 0.002137679161242281,
+        "spatial_Linf_mass": 0.0029859150550775038,
+        "spatial_L2_enthalpy": 0.002137788063578969,
+        "spatial_Linf_enthalpy": 0.002958725238869364,
+        "mass_flux_residual_max": 8.68385724662917e-16,
+        "enthalpy_flux_residual_max": 7.19561180872306e-16,
+        "temporal_halving_L2_difference": 2.433609241918857e-06,
+        "spatial_order_mass": 1.9969706535833922
+      },
+      {
+        "verification_cells": 20.0,
+        "verification_dx": 0.05,
+        "verification_dt": 0.0003125,
+        "verification_steps": 320.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 0.0005347222295814856,
+        "spatial_Linf_mass": 0.0007538802817130819,
+        "spatial_L2_enthalpy": 0.0005347397798828143,
+        "spatial_Linf_enthalpy": 0.0007479226797486027,
+        "mass_flux_residual_max": 6.2717108089192355e-15,
+        "enthalpy_flux_residual_max": 5.624877665278615e-15,
+        "temporal_halving_L2_difference": 1.5400487836795115e-07,
+        "spatial_order_mass": 1.999183779816264
+      },
+      {
+        "verification_cells": 40.0,
+        "verification_dx": 0.025,
+        "verification_dt": 7.8125e-05,
+        "verification_steps": 1280.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 0.00013369982156547956,
+        "spatial_Linf_mass": 0.000188934327039203,
+        "spatial_L2_enthalpy": 0.0001337037606062607,
+        "spatial_Linf_enthalpy": 0.000187492965205871,
+        "mass_flux_residual_max": 3.2167317731915536e-14,
+        "enthalpy_flux_residual_max": 2.8561823947715934e-14,
+        "temporal_halving_L2_difference": 9.65521300320405e-09,
+        "spatial_order_mass": 1.9997921139700827
+      },
+      {
+        "verification_cells": 80.0,
+        "verification_dx": 0.0125,
+        "verification_dt": 1.953125e-05,
+        "verification_steps": 5120.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 3.342616506464923e-05,
+        "spatial_Linf_mass": 4.72626238955387e-05,
+        "spatial_L2_enthalpy": 3.342712375933929e-05,
+        "spatial_Linf_enthalpy": 4.6905217265413857e-05,
+        "mass_flux_residual_max": 1.25380815767e-13,
+        "enthalpy_flux_residual_max": 1.1838742992930406e-13,
+        "temporal_halving_L2_difference": 6.037812416134293e-10,
+        "spatial_order_mass": 1.999947788769149
+      },
+      {
+        "verification_cells": 160.0,
+        "verification_dx": 0.00625,
+        "verification_dt": 4.8828125e-06,
+        "verification_steps": 20480.0,
+        "verification_final_time": 0.1,
+        "spatial_L2_mass": 8.356616763111595e-06,
+        "spatial_Linf_mass": 1.181747123901733e-05,
+        "spatial_L2_enthalpy": 8.356854837205062e-06,
+        "spatial_Linf_enthalpy": 1.172830187967655e-05,
+        "mass_flux_residual_max": 5.1009257371182e-13,
+        "enthalpy_flux_residual_max": 4.797036187049536e-13,
+        "temporal_halving_L2_difference": 3.71917533995999e-11,
+        "spatial_order_mass": 1.9999869660689917
+      }
+    ],
+    "full_coupled_model_status": "not verified by this test"
+  },
+  "result_schema_revision": "2026-10-28: scalar FVM verification columns appended to Ch02 results; historical numerical columns and reference CSV retained",
+  "expanded_generator_sha256": "5be65e5055a30bda260a7e675b4443a1563c88b0d53ea4b29bed31c04bcf89db",
+  "reference_hashes": {
+    "Ch02_Transport_Verification_Benchmark.csv": "3328d7a4fc6b9a7be5122781522a5d0b021f36156a7a341e225478276dee8d70",
+    "Ch03_Data_Readiness_Gate_ROC_Benchmark.csv": "01659e7cfb1cb6783a653fa006f667c3adcf4f0191cb7144a6381b3b08f22214",
+    "Ch04_Ablation_and_Identifiability_Benchmark.csv": "ae6198368f2d0ec9f49e54be1ffceaeab9acd91b709a6bb1df95ce6e838f106e",
+    "Ch04_Drying_Extrapolation_Benchmark.csv": "9d955f70545830672b88fce628dbe7ce2a86166d1e3b4447a555fe3812ab9c57",
+    "Ch05_Observer_Comparison_and_WCET_Benchmark.csv": "4ce9a0c2dab83fd177b46e5e6dd614f5e2860933d82166dbe61b4a07c6c391b7",
+    "Ch05_UHT_Fouling_Observer_Benchmark.csv": "54b865e6b03d021464b671b05f8743a323aba75f3f0d0d4a982b54da09221847",
+    "Ch06_MAP_Salmon_Pallet_FEFO_Benchmark.csv": "44b60774368be53acef6f32b04e502972470eaa62fb85b03eea1f516b4881b10",
+    "Ch07_Table_7_4_Safety_Shield_Benchmark.csv": "ee508d23f773918be9a327f943aa38a79032fef52a78b1c98c7458a447250c17",
+    "Ch08_Table_8_2_Spray_Dryer_Sensitivity.csv": "0f5921577b5cdd6855007c9a3b3406401c62bb7d8bd02075b3b3373266343cfd",
+    "Ch08_Table_8_3_Conformal_NIR_Benchmark.csv": "7ffcf62dc57a722f0e974ef98980a80e60c023162ba906e98639b11dcf1c269c",
+    "Ch09_Closed_Loop_Controller_Comparison_Benchmark.csv": "743bb780a3bf70fee6e179632bc0f8216e935cb544708d4a48f0b6a88b70b4a9",
+    "Ch09_Pareto_and_Exergy_Verification_Benchmark.csv": "b7d96a91dc5c0d1bb2807c19079f1ee04efc8c8b84f18953c715026ae5170e47",
+    "Ch10_Table_10_4_Scenario_IA_Retort_Benchmark.csv": "b4a155cfca9a41337173761d82e2096425040d1abaa917e8cbc8936984f501e4",
+    "Ch10_Table_10_4_Scenario_IB_UHT_Benchmark.csv": "9c3c9c26a4c4169033db275b716845b4d91be1eba4e65eb35900e3630bfb5cca",
+    "Ch11_Scenario_IIA1_Drying_Dossier.csv": "bc3257f5da76a593274d9714f2991ae793ed36b948909c06bec15d6fa5b4b669",
+    "Ch11_Scenario_IIA2_Baking_Dossier.csv": "9aa1fbbcbee0caca64a8494e61c736d48e195019aed3951231377fb3c91907d3",
+    "Ch11_Scenario_IIB_Extrusion_Dossier.csv": "be3a283b04d11225ec8b515e149ff8ec1e37c73a3a7f5f7647c9873017cbb65e",
+    "Ch11_Table_11_4_Drying_Baking_Extrusion_Benchmark.csv": "939b273da6fc6e4880fdaa179b78d55ca41177751d22bd25a938f7d59b8af135",
+    "Ch12_Table_12_3_Scenario_IIIA_Fermentation_Benchmark.csv": "7a18fd7b16d7aeb532f68c72fc326a8e6f0922378701f2decd580852e93d7d87",
+    "Ch12_Table_12_4_Scenario_IIIB_ColdChain_Benchmark.csv": "8c1f9c84320605e1dd42958bf24d36171bf0539b92da5bfc0b6cf9c56e51b317",
+    "Ch13_Counterfactual_Tiers_and_LCA_Sensitivity.csv": "5f9639112e9bc422a38b922a22cf028574b0bf8b75c81b746ce19f094fd5f873",
+    "Ch13_Tables_13_4_and_13_5_TechnoEconomic_and_LCA_Summary.csv": "be57845efe2cb3e71c3988eb65ee549a2a3e5089e753f2d1daa0fc2377f9c5e7",
+    "M1_to_M6_foundational_benchmarks.csv": "85128db32e14c3e1f1c35368f2c73a9fea70d921ed88971cb7a8de2f7fcec327"
+  },
+  "presentation_validation": {
+    "status": "passed",
+    "invalid_citations": 0,
+    "source_code_blocks": 0,
+    "editable_algorithm_tables": 22,
+    "embedded_figure_matches": 14,
+    "figure_title_policy": "no_titles_panel_letters_only",
+    "algorithm_source_tokens": "preserved"
+  },
+  "figure_environment": {
+    "status": "current_environment_fingerprint_not_cross_environment_byte_guarantee",
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0",
+    "freetype": "2.14.3",
+    "backend": "Agg",
+    "serif_preferences": [
+      "Times New Roman",
+      "DejaVu Serif",
+      "Georgia"
+    ],
+    "mathtext_fontset": "dejavusans",
+    "savefig_dpi": 300,
+    "savefig_bbox": "tight",
+    "resolved_fonts": {
+      "normal_normal": {
+        "filename": "times.ttf",
+        "resolved_path": "C:\\Windows\\Fonts\\times.ttf",
+        "sha256": "f2cb777422a10368904d3f691e650e39da862fe723389056324927df540a35ec"
+      },
+      "normal_bold": {
+        "filename": "timesbd.ttf",
+        "resolved_path": "C:\\Windows\\Fonts\\timesbd.ttf",
+        "sha256": "85b680fc9d8fee549191dc823f31d777b37181d298b470bd615cf066920a4a51"
+      },
+      "italic_normal": {
+        "filename": "timesi.ttf",
+        "resolved_path": "C:\\Windows\\Fonts\\timesi.ttf",
+        "sha256": "4b6d2004937d292f183af258c27d7f7f931783ad0e03d441822768dc02145ded"
+      },
+      "mathtext_base": {
+        "filename": "DejaVuSans.ttf",
+        "resolved_path": "<python-env>\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf",
+        "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      }
+    },
+    "scope": "Archived PNG hashes establish integrity; identical rendering also requires matching font binaries, rasteriser and software environment."
+  },
+  "result_identity_scope": "numerical_tolerance_checks_separate_from_SHA256_identity",
+  "figure_hashes": {
+    "fig_ch01_1.png": "844f0182fc20fef7af92cc97a0af15e7af174dfea9182e6ff8fd82a165d7009b",
+    "fig_ch01_2.png": "51d9f69dfe2bf626067a52e295b91a7b022a9f9fed7ac692441a984be47c0c60",
+    "fig_ch02_1.png": "08bc3aececd9654b2d6b1943766e52b0856f901396ca018900a9f9bc0c0598d0",
+    "fig_ch03_1.png": "6fdcc877660ae2734a1b240c43c541809b4bd4b9667688cfbbe31d2dcff09e35",
+    "fig_ch04_1.png": "3a26a6dc193b45882d1f22f8ec329906984b1e7a52f62fe80c3fb5c7f179f5aa",
+    "fig_ch05_1.png": "1d48392cca941604189e8721eb8ee6682f3facc3a2fd770e16940b47c70ca7df",
+    "fig_ch06_1.png": "12ea1d861ce0c366337abfdcde9a2d30047568c626f92d25a9c14b982e0b411d",
+    "fig_ch07_1.png": "d47dd5b25012bca8d71c1109c850cd631aee3c30ef2898a8b0a8eb3df5d5ded7",
+    "fig_ch08_1.png": "76df5037a2e0403e81f1df4d548f40fd49c523e8d510d8ef2c118dc80881d596",
+    "fig_ch09_1.png": "ab2dcef409663d2cb982410a17ccdb3e8d1b033d34afd58bace7df258239819c",
+    "fig_ch10_1.png": "3f65b1c96998fff670d467a49d34d5066238aac6e60f0a1285a7f6441be12c66",
+    "fig_ch11_1.png": "e4259ddff4fe20021eff95cd92119e330a5ea9aa46c042bd3113bd545620eb4e",
+    "fig_ch12_1.png": "ec453ae0703ea67f60c5a25984d2c25df3f5df65e229c0184b50e6d09fda1f09",
+    "fig_ch13_1.png": "9415eddb0a98a9d2b71e198b14f1602bdb56a15bfe1ea75cd77181dcb103c41a"
+  },
+  "manuscript_hashes": {
+    "00_Front_Matter.docx": "ce8cf37f3e43af49c1f451fbf0e9464f7dfeb9a275756d84b7dcc53698d9ab47",
+    "14_Back_Matter_and_Index.docx": "98e078764be4e7b7242a9b700d3b1d0604db2eb058574841143ad3abc514121a",
+    "Ch01_Manuscript.docx": "4ebea8c638a7cf57f44be6afadf38c7348b4ef26c37eb6ce2766ada025523440",
+    "Ch02_Manuscript.docx": "5f7871af977fab7f4128eeaa7190955edf46d6ef908e7630f7fc119de89755f3",
+    "Ch03_Manuscript.docx": "9414ab3a353247deaef38db103314169debe138312925427df560345c5cb33c2",
+    "Ch04_Manuscript.docx": "45db9d85cd24102df36c4a0f642c1c3b893e20fdf68f3c2f09a7baf3c3a24cda",
+    "Ch05_Manuscript.docx": "725bc3000ab3a4e8f51f51da5c9c973f17f9ef1df1a969a3dc48941e4e490f54",
+    "Ch06_Manuscript.docx": "af23af68d2f6f83059c4556edfc54bc28405d2c91d073a318605f4db15aa82c7",
+    "Ch07_Manuscript.docx": "bc74e2da054c9fc452f780dffe6d0a62b751801547fd9e10ada0965b47b4d334",
+    "Ch08_Manuscript.docx": "bc9785aa25f7e66e05187cd1010eb7593ee092bc3aff94a359942b4f4b62f7d9",
+    "Ch09_Manuscript.docx": "2ffb7ddb4f400c5452a3ac848925d5f28405063e7c95bfbc25a99f1738898875",
+    "Ch10_Manuscript.docx": "a34323338f636dcc9f77da01ecdb6a60f8e9b9e3c0340ca2b38cf07e66512f9f",
+    "Ch11_Manuscript.docx": "34a486828a99c8bbc24238ee0c5fc94e2a1a92c71b9637a9da07b038ca4b8aee",
+    "Ch12_Manuscript.docx": "32fc48b8aadc3dff886cc593dea06207cf33ccd96c6867bf09b85945912ea5e0",
+    "Ch13_Manuscript.docx": "fd59d59211dcedb52660118087cd03c6772e506be973efb7eb4fb6a879aea036"
+  },
+  "seed": 42,
+  "limitations": [
+    "Ch04 architecture comparisons withdrawn as empirical evidence",
+    "Timing constants are not measurements or WCET bounds",
+    "Stored regression references are not independently validated scientific truth",
+    "Parameter values remain unverified scenario assumptions"
+  ],
+  "python_version": "3.11.16",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "numpy_version": "2.4.6",
+  "scipy_version": "1.17.1",
+  "pandas_version": "2.3.3",
+  "script_sha256": "13b9e9e83dc1f7524332dd2e3bb92bcf9cabdb99e5ce17a4457a2c128c7aa95b",
+  "inputs": {
+    "kinetic_and_transport_parameters.csv": "2fea259abe3def276e544c0491c1913cdfa0bfade336c28532dcbbdd1015d2f8",
+    "monte_carlo_disturbances_seed42.csv": "6cd7ad7014e74b013abaf5a166e1e1890066fd8e239f8a9f739922b1bb6d50df"
+  },
+  "outputs": {
+    "Ch02_Transport_Verification_Benchmark.csv": "24df1a54412c3cf87feb258da09c6bdc416a5bf298b8809350cd8996cacf993e",
+    "Ch03_Data_Readiness_Gate_ROC_Benchmark.csv": "1f97e0ba5bf9d492f35726fea10fffd2a31457f03ad155d04159ba6418f8a72c",
+    "Ch04_Ablation_and_Identifiability_Benchmark.csv": "e08651b9c1b1eb4428d617a6087326b0f6e8118d32104a0fdc61c4af38a922fe",
+    "Ch04_Drying_Extrapolation_Benchmark.csv": "d3e5a8285003462213cffd8f96237cde88f64927bcce931a1dcc2872f2d43ad7",
+    "Ch05_Observer_Comparison_and_WCET_Benchmark.csv": "db6ef9be5cfe9daf831dc99db79ef115cb1a0b7eb538726002bb8aecaa548378",
+    "Ch05_UHT_Fouling_Observer_Benchmark.csv": "8f2d99281742ac5e4425b4b9ee29a99c06864bfb6ddc22b82cc051d61b3912e2",
+    "Ch06_MAP_Salmon_Pallet_FEFO_Benchmark.csv": "44b60774368be53acef6f32b04e502972470eaa62fb85b03eea1f516b4881b10",
+    "Ch07_Table_7_4_Safety_Shield_Benchmark.csv": "0aabe37f462fb91d421f54d55fd80acdcdd58d60e91d9b1d4ff88c333fbf0273",
+    "Ch08_Table_8_2_Spray_Dryer_Sensitivity.csv": "3c3cfb221b1f1b7f369bd7c25516a932473734f5c2010b500670cade1a5a0a27",
+    "Ch08_Table_8_3_Conformal_NIR_Benchmark.csv": "2eadf6d8b23a388f350180aca6a37569bd22b3849f1b720d6f896bfe6c55d42e",
+    "Ch09_Closed_Loop_Controller_Comparison_Benchmark.csv": "743bb780a3bf70fee6e179632bc0f8216e935cb544708d4a48f0b6a88b70b4a9",
+    "Ch09_Pareto_and_Exergy_Verification_Benchmark.csv": "e85056a721fa28d6e4e14a27ad13ef9bc85d0593f1da56deecfeac5777f329e7",
+    "Ch10_Table_10_4_Scenario_IA_Retort_Benchmark.csv": "5abec112a9ba1d176207a4b0a342ac2fcdc388bb9fe47140167afb79cfaa0a58",
+    "Ch10_Table_10_4_Scenario_IB_UHT_Benchmark.csv": "5b68d2c0d4d055ef2f8748ed817621e32369861febd46e92ebef077d774ca1b0",
+    "Ch11_Scenario_IIA1_Drying_Dossier.csv": "f672f09affdc2554dc5ad0f50332ab95d5275fcfe633cbb792f6cebf1a3af62b",
+    "Ch11_Scenario_IIA2_Baking_Dossier.csv": "9da18401b4da9b047ff251a37001ffc8605dba8b4ed4dad1f139b6eac9ebbaf1",
+    "Ch11_Scenario_IIB_Extrusion_Dossier.csv": "06225c1dcd2e5252474f9d9183b97af62d2d2e2e93385b1a9760cfb0c9f3a756",
+    "Ch11_Table_11_4_Drying_Baking_Extrusion_Benchmark.csv": "2bb30d8857296026783971ec5dd49c08455523dfc6ad7dfda5069d71a07d18c3",
+    "Ch12_Table_12_3_Scenario_IIIA_Fermentation_Benchmark.csv": "50ae95697db2e80183f236d1354e107543f405219cd5c89c195e630dbedddce0",
+    "Ch12_Table_12_4_Scenario_IIIB_ColdChain_Benchmark.csv": "1e028092b0a59b4fe8f2321d59153290e25eb43ea8cc8873041d729c669e731f",
+    "Ch13_Counterfactual_Tiers_and_LCA_Sensitivity.csv": "83ca2714712bfa5a607da65ce91e93b86b6ec3d5e797b26cdd49598c4ce54f2a",
+    "Ch13_Tables_13_4_and_13_5_TechnoEconomic_and_LCA_Summary.csv": "f7d5f4d7f35f6079e820ee572ada83374f4b1e9f056d96bb7413a61adf5b839a",
+    "M1_to_M6_foundational_benchmarks.csv": "85128db32e14c3e1f1c35368f2c73a9fea70d921ed88971cb7a8de2f7fcec327"
+  },
+  "reference_benchmarks_verified": 23,
+  "reference_check_scope": "numerical_regression_only_not_scientific_validation"
+}

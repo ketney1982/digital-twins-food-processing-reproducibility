@@ -1,0 +1,6 @@
+grid_nr,grid_nz,dt_min,T_centre_10min,T_centre_20min,T_centre_30min,T_centre_40min,F0_nominal_CRT_min,thiamine_retention_pct,surface_cook_C0_min
+18,25,0.1,74.488,88.613,100.867,108.905,7.443,59.579,128.73
+36,50,0.05,74.431,88.594,100.867,108.91,7.485,59.539,128.76
+72,100,0.025,74.417,88.589,100.867,108.912,7.495,59.529,128.76
+analytic,series,,74.412,88.588,100.867,108.912,,,
+"36 (modal CN, vectorised)",50,0.05,,,,,7.485,59.539,128.76

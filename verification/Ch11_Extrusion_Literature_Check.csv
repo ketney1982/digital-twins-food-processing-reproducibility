@@ -1,0 +1,7 @@
+item,E_over_R_K,K_ref_110C_28pct_Pa_s_m,declared_K0_Pa_s_n,declared_n,literature_law_mean,literature_law_sd,max,max_abs_log_residual,measured_K_Pa_s_m,measured_law_dlnK_dMC,measured_m,min,moisture_coefficient_per_wt_pct,ratio_declared_to_measured_K,ratio_reduced_to_measured,reduced_mean,reduced_model_dlnP_dMC,reduced_sd,sd,trials_over_12MPa_literature_law,trials_over_12MPa_reduced,evidence_status
+fit_of_K_to_Table_1,4252.0,19071.0,,,,,,0.123,,,,,0.1057,,,,,,,,,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law
+declared_parameters_vs_measured_110C_28pct,,,14200.0,0.34,,,,,18400,,0.33,,,0.77,,,,,,,,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law
+moisture_sensitivity_per_wt_pct_at_18pct,,,,,,,,,,-0.1057,,,,,0.58,,-0.0611,,,,,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law
+die_pressure_MPa_250_trials_fixed_recipe,,,,,6.587,1.062,,,,,,,,,,6.554,,0.872,,0,0,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law
+SME_kJ_kg_250_trials_fixed_recipe,,,,,564.0,91.0,,,,,,,,,,557.3,,57.9,,,,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law
+feed_moisture_range_in_trials_pct_wb,,,,,,,21.3,,,,,14.5,,,,,,,1.29,,,literature_rheology_one_starch_laboratory_rheometer_assumes_scenario_material_follows_the_law

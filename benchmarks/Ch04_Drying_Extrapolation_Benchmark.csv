@@ -1,0 +1,5 @@
+model_architecture,in_domain_RMSE_kg_kg_db,extrapolation_OOD_RMSE_kg_kg_db,in_domain_RMSEP_wt_pct,extrapolation_OOD_RMSEP_wt_pct,physical_violation_rate_pct,online_inference_latency_ms,evidence_status
+1_Pure_Mechanistic_WhiteBox_Fickian_ODE,0.085,0.082,3.52,2.86,0.0,1.8,legacy_constructed_illustration_not_trained_architecture_performance
+2_Polynomial_ID_Oracle_Perturbed_OOD,0.005,0.091,0.14,2.02,16.7,0.4,legacy_constructed_illustration_not_trained_architecture_performance
+3_Oracle_Residual_Correction,0.015,0.082,0.45,2.86,0.0,2.1,legacy_constructed_illustration_not_trained_architecture_performance
+4_Assigned_Constitutive_Factor,0.003,0.004,0.11,0.14,0.0,2.4,legacy_constructed_illustration_not_trained_architecture_performance

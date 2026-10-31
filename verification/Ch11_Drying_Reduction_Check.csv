@@ -1,0 +1,4 @@
+air_T_C,air_RH_pct,calibrated_half_thickness_mm,Xf_core_reduced_mean,Xf_core_reduced_sd,Xf_core_resolved_mean,Xf_core_resolved_sd,Xf_mean_slab_resolved_mean,RMSE_core_kg_kg,spearman_rank_correlation,dlnXf_dlnDmult_reduced,dlnXf_dlnDmult_resolved,aw_violations_reduced_pct,aw_violations_resolved_pct,evidence_status
+70.0,10.0,1.123,0.1415,0.0282,0.1491,0.0573,0.1115,0.0348,0.911,-1.438,-2.908,33.2,37.6,model_to_model_reduction_check_constant_diffusivity_no_shrinkage_assumed_air_state
+70.0,20.0,1.09,0.1415,0.0282,0.1483,0.0469,0.1194,0.0257,0.908,-1.438,-2.335,33.2,34.8,model_to_model_reduction_check_constant_diffusivity_no_shrinkage_assumed_air_state
+70.0,30.0,1.058,0.1415,0.0282,0.1474,0.0379,0.1255,0.0189,0.905,-1.438,-1.871,33.2,32.4,model_to_model_reduction_check_constant_diffusivity_no_shrinkage_assumed_air_state

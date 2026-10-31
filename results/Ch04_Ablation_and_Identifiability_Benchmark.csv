@@ -1,0 +1,6 @@
+architecture_variant,fim_condition_number,param_correlation_rho,in_domain_RMSE_kg_kg_db,extrapolation_OOD_RMSE_kg_kg_db,mass_balance_residual,physical_violation_rate_pct,evidence_status
+1_WhiteBox_Uncentered_Arrhenius,6600272054.0,0.9994,0.085,0.088,0.0,0.0,legacy_constructed_illustration_not_trained_architecture_performance
+2_WhiteBox_Centered_Arrhenius,1.07,0.035,0.085,0.082,0.0,0.0,legacy_constructed_illustration_not_trained_architecture_performance
+3_Assigned_Empirical_Error_Slot,48200.0,0.9942,0.005,0.091,0.0842,16.7,legacy_constructed_illustration_not_trained_architecture_performance
+4_Assigned_Residual_Error_Slot,142.5,0.312,0.015,0.082,0.0195,0.0,legacy_constructed_illustration_not_trained_architecture_performance
+5_Assigned_Closure_Error_Slot,1.45,0.035,0.003,0.004,0.0,0.0,legacy_constructed_illustration_not_trained_architecture_performance

@@ -1,0 +1,7 @@
+time_h,total_energy_kWh,SMER_kg_per_kWh,COP_system_without_external_condenser,COP_system_with_external_condenser
+1,0.789,0.564,2.943,2.643
+2,0.781,0.384,2.744,2.436
+3,0.773,0.323,2.649,2.457
+4,0.764,0.301,2.682,2.481
+5,0.760,0.171,2.663,2.520
+6,0.751,0.073,2.827,2.537

@@ -1,0 +1,7 @@
+barrel_temperature_C,screw_speed_rpm,mean_residence_time_s,variance_s2,number_of_CSTRs,first_tracer_appearance_s_read_from_figure
+120,80,80.34,730.09,8.84,30
+120,120,61.99,473.78,8.11,27
+120,160,55.36,652.50,4.70,22
+140,80,75.10,772.79,7.30,
+140,120,52.47,547.47,5.03,
+140,160,54.97,747.37,4.04,

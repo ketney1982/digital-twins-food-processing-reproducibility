@@ -1,0 +1,5 @@
+scenario,control_paradigm,F0_mean_min,F0_sd_min,F0_empirical_p0_1_min,under_sterilised_batches_count,under_sterilised_batches_pct,thiamine_retention_mean_pct,thiamine_retention_sd_pct,surface_cook_C0_mean_min,surface_cook_C0_sd_min,batch_cycle_time_mean_min,batch_cycle_time_sd_min,specific_steam_exergy_kJ_per_can,specific_steam_consumption_MJ_per_kg,evidence_status
+Scenario_IA_Batch_Retort_500_MC,1_CRT_Optimal_121.1C_Fixed_Schedule,8.38,2.3,3.14,223,44.6,59.4,1.7,150.0,4.5,79.5,0.0,146.0,1.54,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IA_Batch_Retort_500_MC,2_CRT_Overcooked_Industrial_Safety_Margin,13.92,3.14,6.23,14,2.8,52.9,1.6,177.4,4.5,88.0,0.0,162.6,1.72,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IA_Batch_Retort_500_MC,3_Deterministic_VRT_Pareto_Nominal_NMPC,8.69,3.05,2.56,221,44.2,58.1,2.1,149.8,6.0,79.8,0.0,129.2,1.36,constructed_in_silico_scenario_not_independent_industrial_validation
+Scenario_IA_Batch_Retort_500_MC,4_Conformal_Robust_VRT_Twin_UKF_SH_NMPC,8.53,0.1,8.34,0,0.0,57.5,2.1,152.3,11.7,79.9,2.7,129.8,1.37,constructed_in_silico_scenario_not_independent_industrial_validation
