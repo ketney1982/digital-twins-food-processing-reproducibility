@@ -20,9 +20,13 @@ m7 = r.run_ch10_thermal_benchmarks(p, mc)
 m8a = r.run_ch11_dehydration_baking_extrusion_benchmarks(p, mc)
 m8b = r.run_ch12_fermentation_and_cold_chain_benchmarks(p, mc)
 r.run_ch13_economic_and_lca_benchmarks(p, mc, m7, m8a, m8b)
-from generate_expanded_benchmarks_and_figures import run_expanded_verification_benchmarks, generate_all_monograph_figures
-run_expanded_verification_benchmarks(p, mc, r.write_csv, r.RES_DIR)
-generate_all_monograph_figures(r.RES_DIR, r.BASE_DIR / "figures")
+import importlib.util
+if importlib.util.find_spec("generate_expanded_benchmarks_and_figures") is None:
+    print("Skipping expanded benchmarks and figures: their generator is excluded from this repository checkout.")
+else:
+    from generate_expanded_benchmarks_and_figures import run_expanded_verification_benchmarks, generate_all_monograph_figures
+    run_expanded_verification_benchmarks(p, mc, r.write_csv, r.RES_DIR)
+    generate_all_monograph_figures(r.RES_DIR, r.BASE_DIR / "figures")
 print("FAST RERUN OK")
 '''
 

@@ -25,7 +25,7 @@ jobs:
       - run: pytest -q
 
   rerun-fast:
-    name: re-run all modules except Chapter 9
+    name: re-run packaged benchmark modules
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
