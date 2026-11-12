@@ -1,0 +1,10 @@
+module_id,chapter,metric,hybrid_twin_value,baseline_value,whitebox_value,unit,evidence_status
+M1_Ch04_Hybrid_UDE,Ch. 4,Constructed extrapolation errors (prescribed residual variants vs polynomial vs mechanistic curve),0.0123,0.1216,0.0045,dimensionless_retention,constructed_in_silico_scenario_not_independent_industrial_validation
+M1b_Ch04_Drying_Extrapolation,Ch. 4,Constructed OOD drying errors (assigned factor vs oracle perturbation vs mechanistic curve),0.14,2.02,2.86,wt_pct,constructed_in_silico_scenario_not_independent_industrial_validation
+M2_Ch05_State_Estimation,Ch. 5,Unmeasured Core Temperature Estimation RMSE (UKF/MHE vs Open-Loop),0.41,1.25,3.53,degC,constructed_in_silico_scenario_not_independent_industrial_validation
+M2b_Ch05_UHT_Fouling_UKF,Ch. 5,UHT Fouling Resistance UKF RMSE (1e-5 m^2 K/W) & Min Residence Time at 8h (s),1.06,2.87,139.1,1e-5_m2K_W__s__degC,constructed_in_silico_scenario_not_independent_industrial_validation
+M3_Ch06_Shelf_Life_TTI,Ch. 6,Dynamic Non-Isothermal Remaining Shelf-Life Prediction MAE,0.22,1.98,1.05,days,constructed_in_silico_scenario_not_independent_industrial_validation
+M3b_Ch06_MAP_Salmon_FEFO,Ch. 6,MAP Salmon 120h Transit RSL_05 at 2C (Pallet 1 Zone 1 vs Pallet 19 Zone 3 vs Pallet 18 Zone 3),160.7,29.5,87.2,hours,constructed_in_silico_scenario_not_independent_industrial_validation
+M4_Ch07_Safety_Weibull_QMRA,Ch. 7,Minimum Core Pathogen Log Reduction During Fouling + Steam Dip (Table 7.4),5.46,3.92,4.94,log10_reductions,constructed_in_silico_scenario_not_independent_industrial_validation
+M5_Ch08_Conformal_UQ,Ch. 8,Adaptive Conformal Empirical Coverage on Drifting NIR Stream (Target 95.0%),94.6,69.2,90.8,percent_coverage,constructed_in_silico_scenario_not_independent_industrial_validation
+M6_Ch09_Pareto_NMPC,Ch. 9,Pareto Knee Specific Energy Reduction with Conformal Safety Back-Off,34.5,0.0,34.1,percent_energy_saved,constructed_in_silico_scenario_not_independent_industrial_validation

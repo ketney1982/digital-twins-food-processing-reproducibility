@@ -1,0 +1,6 @@
+control_regime,throughput_kg_per_h,specific_energy_MJ_per_kg,gouy_stodola_exergy_dest_MJ_per_kg,entropy_generation_kJ_per_kgK,one_minus_exdest_over_SEC_pct,nutrient_retention_pct,disturbance_constraint_violation_pct,energy_balance_closure_residual,evidence_status
+1_Legacy_Baseline_PID,1180.0,2.48,0.91,3.0522,63.31,78.4,6.8,1.4e-13,assigned_values_no_generating_code
+2_Deterministic_NMPC_NoBackoff,1340.0,2.12,0.76,2.5491,64.15,84.1,14.2,1.2e-13,assigned_values_no_generating_code
+3_Pareto_Throughput_Max_CC_NMPC,1395.0,2.19,0.79,2.6497,63.93,82.8,0.8,1.5e-13,assigned_values_no_generating_code
+4_Pareto_Balanced_Knee_CC_NMPC,1310.0,1.98,0.68,2.2807,65.66,88.6,0.4,1.1e-13,assigned_values_no_generating_code
+5_Pareto_Quality_Exergy_Opt_CC_NMPC,1225.0,1.84,0.61,2.046,66.85,92.4,0.2,1e-13,assigned_values_no_generating_code

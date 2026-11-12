@@ -1,0 +1,13 @@
+strategy,feedback_gain_g,run_length_ratio_resolved_to_reduced,CIP_cycles_reduced,CIP_cycles_resolved,milk_t_reduced,milk_t_resolved,milk_error_pct,steam_MJ_t_reduced,steam_MJ_t_resolved,effluent_L_t_reduced,effluent_L_t_resolved,evidence_status
+1_Conventional_Fixed_Setpoint_UHT_82C_Prehold,0.0,1.0,4.84,5.0,407.4,406.4,-0.26,297.5,297.9,28.4,29.4,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+1_Conventional_Fixed_Setpoint_UHT_82C_Prehold,0.5,0.811,4.84,6.04,407.4,391.0,-4.04,297.5,301.0,28.4,37.0,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+1_Conventional_Fixed_Setpoint_UHT_82C_Prehold,1.0,0.693,4.84,6.91,407.4,378.0,-7.21,297.5,303.8,28.4,43.8,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+1_Conventional_Fixed_Setpoint_UHT_82C_Prehold,2.0,0.549,4.84,8.29,407.4,357.7,-12.21,297.5,308.6,28.4,55.6,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+2_Open_Loop_PreHold_Optimised_UHT_91C_Grijspeerdt,0.0,1.0,3.2,3.3,432.0,431.4,-0.15,282.3,282.5,17.7,18.3,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+2_Open_Loop_PreHold_Optimised_UHT_91C_Grijspeerdt,0.5,0.811,3.2,4.03,432.0,420.3,-2.7,282.3,284.4,17.7,22.9,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+2_Open_Loop_PreHold_Optimised_UHT_91C_Grijspeerdt,1.0,0.693,3.2,4.73,432.0,410.3,-5.02,282.3,286.4,17.7,27.6,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+2_Open_Loop_PreHold_Optimised_UHT_91C_Grijspeerdt,2.0,0.549,3.2,5.8,432.0,394.1,-8.76,282.3,289.5,17.7,35.2,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+3_Closed_Loop_Fouling_Aware_ENMPC_Ultrasonic_MHE_CIP_Twin,0.0,1.0,2.94,3.05,448.3,447.8,-0.13,279.5,279.7,11.2,11.7,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+3_Closed_Loop_Fouling_Aware_ENMPC_Ultrasonic_MHE_CIP_Twin,0.5,0.811,2.94,3.79,448.3,439.8,-1.91,279.5,281.5,11.2,14.8,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+3_Closed_Loop_Fouling_Aware_ENMPC_Ultrasonic_MHE_CIP_Twin,1.0,0.693,2.94,4.43,448.3,432.8,-3.46,279.5,283.1,11.2,17.5,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation
+3_Closed_Loop_Fouling_Aware_ENMPC_Ultrasonic_MHE_CIP_Twin,2.0,0.549,2.94,5.54,448.3,421.1,-6.08,279.5,286.0,11.2,22.6,assigned_scenario_accounting_check_g_is_an_assigned_sensitivity_not_validation

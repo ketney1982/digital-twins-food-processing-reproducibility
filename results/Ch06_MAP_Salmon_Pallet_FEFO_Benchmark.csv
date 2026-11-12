@@ -1,0 +1,4 @@
+pallet_id,batch_id,y0_log10_CFU_g,zone_T_eff_degC,t_eq_120h_at_2C_h,static_shelf_life_at_2C_h,y_120h_mean_log10_CFU_g,y_120h_sd_log10_CFU_g,RSL_det_at_2C_h,RSL_05_at_2C_h,RSL_det_at_3C_h,RSL_05_at_3C_h,FEFO_disposition,evidence_status
+Pallet_1_BatchA_Zone1_FrontEvaporator,Batch_A,2.4,1.23,105.1,307.7,3.82,0.38,200.1,160.7,167.9,134.9,Quality_Feasible_Long_Route_Conditional_On_Safety_Eligibility,constructed_in_silico_scenario_not_independent_industrial_validation
+Pallet_18_BatchA_Zone3_RearDoor,Batch_A,2.4,4.27,176.5,307.7,4.94,0.41,129.6,87.2,108.8,73.2,Quality_Feasible_Short_Route_Conditional_On_Safety_Eligibility,constructed_in_silico_scenario_not_independent_industrial_validation
+Pallet_19_BatchC_Zone3_RearDoor,Batch_C,3.3,4.27,176.5,251.1,5.84,0.42,73.0,29.5,61.3,24.8,Quality_Feasible_Short_Route_Conditional_On_Safety_Eligibility,constructed_in_silico_scenario_not_independent_industrial_validation

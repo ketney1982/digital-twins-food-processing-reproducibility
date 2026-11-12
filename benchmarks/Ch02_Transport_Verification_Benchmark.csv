@@ -1,0 +1,7 @@
+grid_nodes_N,dx_mm,Fo_eval,analytical_center_theta,fvm_center_theta,abs_error_L2,abs_error_Linf,observed_convergence_order_p,lumped_Bi001_discrepancy,mass_enthalpy_balance_residual,evidence_status
+5,3.0,0.02,0.9999989,1.007996,0.0079971,0.0094366,0.0,0.001666,2.4597e-15,constructed_in_silico_scenario_not_independent_industrial_validation
+10,1.5,0.02,0.9999989,0.9999728,2.6052e-05,3.0741e-05,8.262,0.001666,3.4785e-15,constructed_in_silico_scenario_not_independent_industrial_validation
+20,0.75,0.02,0.9999989,0.9999966,2.2733e-06,2.6825e-06,3.519,0.001666,4.9193e-15,constructed_in_silico_scenario_not_independent_industrial_validation
+40,0.375,0.02,0.9999989,0.9999984,4.6147e-07,5.4453e-07,2.3,0.001666,6.957e-15,constructed_in_silico_scenario_not_independent_industrial_validation
+80,0.1875,0.02,0.9999989,0.9999987,1.0869e-07,1.2826e-07,2.086,0.001666,9.8387e-15,constructed_in_silico_scenario_not_independent_industrial_validation
+160,0.0938,0.02,0.9999989,0.9999988,2.6757e-08,3.1573e-08,2.022,0.001666,1.3914e-14,constructed_in_silico_scenario_not_independent_industrial_validation

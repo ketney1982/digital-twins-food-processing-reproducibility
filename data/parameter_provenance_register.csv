@@ -1,0 +1,132 @@
+design_id,chapter,process_id,symbol,value,unit,numeric_origin,execution_role
+PD-001,Ch04,M1_Ch04_UDE,k_ref_ude,0.0042,min^-1,Author-selected design input,Executed
+PD-002,Ch04,M1_Ch04_UDE,Ea_over_R,2500.0,K,Author-selected design input,Executed
+PD-003,Ch04,M1_Ch04_UDE,T_ref_K,394.25,K,Derived: 121.1 + 273.15 = 394.25 K,Executed
+PD-004,Ch04,M1_Ch04_UDE,T_init_C,20.0,degC,Author-selected design input,Executed
+PD-005,Ch04,M1_Ch04_UDE,dT_step_C,101.1,degC,Derived: 121.1 - 20 = 101.1 degC,Executed
+PD-006,Ch04,M1_Ch04_UDE,tau_heat_min,18.0,min,Author-selected design input,Executed
+PD-007,Ch04,M1_Ch04_UDE,amp_struct,0.14,dimensionless,Author-selected design input,Executed
+PD-008,Ch05,M2_Ch05_UKF,m_dot_uht,4.29,kg/s,Author-selected design input,Descriptor only
+PD-009,Ch05,M2_Ch05_UKF,T_in_uht,80.0,degC,Author-selected design input,Descriptor only
+PD-010,Ch05,M2_Ch05_UKF,T_hold_nom,138.5,degC,Author-selected design input,Executed
+PD-011,Ch05,M2_Ch05_UKF,tau_hold_mean,4.0,s,Author-selected design input,Descriptor only
+PD-012,Ch05,M2_Ch05_UKF,tau_min_clean,3.28,s,Author-selected design input,Executed
+PD-013,Ch05,M2_Ch05_UKF,R_f_8h,0.00032,m^2_K/W,Author-selected design input,Executed
+PD-014,Ch05,M2_Ch05_UKF,alpha_constr,390.625,W/(m^2_K),Derived: 0.125 / 0.00032 = 390.625 W/(m^2 K),Executed
+PD-015,Ch05,M2_Ch05_UKF,sigma_T_meas,0.22,degC,Author-selected design input,Executed
+PD-016,Ch05,M2_Ch05_UKF,sigma_T_proc,0.12,degC,Author-selected design input,Executed
+PD-017,Ch06,M3_Ch06_ShelfLife,k_ref_sl,0.145,day^-1,Author-selected design input,Executed
+PD-018,Ch06,M3_Ch06_ShelfLife,Ea_sl,68500.0,J/mol,Author-selected design input,Executed
+PD-019,Ch06,M3_Ch06_ShelfLife,T_ref_sl_K,277.15,K,Derived: 4 + 273.15 = 277.15 K,Executed
+PD-020,Ch06,M3_Ch06_ShelfLife,q_crit_sl,20.0,pct_retention,Author-selected design input,Executed
+PD-021,Ch07,M4_Ch07_Safety,V_dot_htst,12000.0,L/h,Author-selected design input,Descriptor only
+PD-022,Ch07,M4_Ch07_Safety,T_ref_htst,72.0,degC,Author-selected design input,Descriptor only
+PD-023,Ch07,M4_Ch07_Safety,D_72_s,2.4,s,Author-selected design input,Executed
+PD-024,Ch07,M4_Ch07_Safety,z_Lm_C,6.5,degC,Author-selected design input,Executed
+PD-025,Ch07,M4_Ch07_Safety,Cc0_geeraerd,4.5,dimensionless,Author-selected design input,Executed
+PD-026,Ch07,M4_Ch07_Safety,Dh0_m,0.065,m,Author-selected design input,Executed
+PD-027,Ch07,M4_Ch07_Safety,tau_min0_s,12.8,s,Author-selected design input,Executed
+PD-028,Ch07,M4_Ch07_Safety,delta_f_8h_m,0.0024,m,Author-selected design input,Executed
+PD-029,Ch07,M4_Ch07_Safety,T_dip_C,72.05,degC,Author-selected design input,Executed
+PD-030,Ch07,M4_Ch07_Safety,u_throttle_cbf,0.18,dimensionless,Author-selected design input,Executed
+PD-031,Ch07,M4_Ch07_Safety,T_cbf_set_C,73.4,degC,Author-selected design input,Executed
+PD-032,Ch07,M4_Ch07_Safety,m_dot_fryer,8000.0,kg/h,Author-selected design input,Descriptor only
+PD-033,Ch07,M4_Ch07_Safety,RS0_winter,2.8,g/kg,Author-selected design input,Executed
+PD-034,Ch07,M4_Ch07_Safety,RS0_nom,1.1,g/kg,Author-selected design input,Descriptor only
+PD-035,Ch07,M4_Ch07_Safety,T_oil_fixed,178.0,degC,Author-selected design input,Executed
+PD-036,Ch07,M4_Ch07_Safety,t_fry_fixed,165.0,s,Author-selected design input,Executed
+PD-037,Ch07,M4_Ch07_Safety,k_AA_ref,1.4827,ug/(kg_s_gRS),Author-selected design input,Executed
+PD-038,Ch07,M4_Ch07_Safety,Ea_AA_fry,125000.0,J/mol,Author-selected design input,Executed
+PD-039,Ch07,M4_Ch07_Safety,f_leach_cbf,0.41,dimensionless,Author-selected design input,Executed
+PD-040,Ch08,M5_Ch08_SprayDryer,theta1_mean,-12.38,ln(m^2/s),Author-selected design input,Descriptor only
+PD-041,Ch08,M5_Ch08_SprayDryer,theta2_min,22.0,kJ/mol,Author-selected design input,Descriptor only
+PD-042,Ch08,M5_Ch08_SprayDryer,theta2_max,38.0,kJ/mol,Author-selected design input,Descriptor only
+PD-043,Ch08,M5_Ch08_SprayDryer,theta3_min,1.2,dimensionless,Author-selected design input,Descriptor only
+PD-044,Ch08,M5_Ch08_SprayDryer,theta3_max,3.5,dimensionless,Author-selected design input,Descriptor only
+PD-045,Ch08,M5_Ch08_SprayDryer,theta4_mean,165.0,um,Author-selected design input,Descriptor only
+PD-046,Ch08,M5_Ch08_SprayDryer,theta5_nom,3.2,W/(m^2_K),Author-selected design input,Descriptor only
+PD-047,Ch08,M5_Ch08_SprayDryer,theta6_mean,-4.15,ln(s^-1),Author-selected design input,Descriptor only
+PD-048,Ch08,M5_Ch08_SprayDryer,theta7_mean,265.0,kJ/mol,Author-selected design input,Descriptor only
+PD-049,Ch08,M5_Ch08_NIR_Conformal,alpha_conf,0.05,dimensionless,Author-selected design input,Executed
+PD-050,Ch08,M5_Ch08_NIR_Conformal,gamma_aci,0.025,dimensionless,Author-selected design input,Executed
+PD-051,Ch08,M5_Ch08_NIR_Conformal,sigma_nir_base,0.275,wt_pct,Author-selected design input,Executed
+PD-052,Ch09,M6_Ch09_Pareto,E_spec_base,1.94,MJ/kg,Author-selected design input,Executed
+PD-053,Ch09,M6_Ch09_Pareto,F0_target_pareto,6.0,min,Author-selected design input,Executed
+PD-054,Ch10,Scenario_IA_Retort,R_can,0.0419,m,Author-selected design input,Executed
+PD-055,Ch10,Scenario_IA_Retort,H_can,0.0579,m,Author-selected design input,Executed
+PD-056,Ch10,Scenario_IA_Retort,rho_can,1065.0,kg/m^3,Author-selected design input,Descriptor only
+PD-057,Ch10,Scenario_IA_Retort,cp_can,3620.0,J/(kg_K),Author-selected design input,Descriptor only
+PD-058,Ch10,Scenario_IA_Retort,k_can,0.8404554,W/(m_K),Derived: 2.18e-7 * 1065 * 3620 = 0.8404554 W/(m K),Descriptor only
+PD-059,Ch10,Scenario_IA_Retort,alpha_can,2.18e-07,m^2/s,Author-selected design input,Executed
+PD-060,Ch10,Scenario_IA_Retort,T0_can_mean,71.1,degC,Author-selected design input,Executed
+PD-061,Ch10,Scenario_IA_Retort,D_121_bot,0.21,min,Author-selected design input,Descriptor only
+PD-062,Ch10,Scenario_IA_Retort,z_bot,10.0,degC,Author-selected design input,Descriptor only
+PD-063,Ch10,Scenario_IA_Retort,F0_req,8.0,min,Author-selected design input,Executed
+PD-064,Ch10,Scenario_IA_Retort,D_121_thia,158.0,min,Author-selected design input,Executed
+PD-065,Ch10,Scenario_IA_Retort,z_thia,25.5,degC,Author-selected design input,Executed
+PD-066,Ch10,Scenario_IA_Retort,z_cook,33.0,degC,Author-selected design input,Executed
+PD-067,Ch10,Scenario_IB_UHT,m_dot_ib,2.5,kg/s,Author-selected design input,Descriptor only
+PD-068,Ch10,Scenario_IB_UHT,L_hold_ib,6.2,m,Author-selected design input,Descriptor only
+PD-069,Ch10,Scenario_IB_UHT,D_tube_ib,0.048,m,Author-selected design input,Descriptor only
+PD-070,Ch10,Scenario_IB_UHT,tau_mean_ib,4.5,s,Author-selected design input,Descriptor only
+PD-071,Ch10,Scenario_IB_UHT,Pe_ax_ib,85.0,dimensionless,Author-selected design input,Descriptor only
+PD-072,Ch10,Scenario_IB_UHT,U0_ib,2850.0,W/(m^2_K),Author-selected design input,Descriptor only
+PD-073,Ch10,Scenario_IB_UHT,Rf_max_ib,0.00035,m^2_K/W,Author-selected design input,Descriptor only
+PD-074,Ch10,Scenario_IB_UHT,tau_CIP_h,1.75,h,Author-selected design input,Descriptor only
+PD-075,Ch10,Scenario_IB_UHT,C_CIP_eur,850.0,EUR,Author-selected design input,Descriptor only
+PD-076,Ch10,Scenario_IB_UHT,H_camp_h,48.0,h,Author-selected design input,Executed
+PD-077,Ch11,Scenario_IIA1_Drying,X0_apple,6.5,kg_w/kg_db,Author-selected design input,Descriptor only (row not read; equals the nominal 6.50 coded in run_all_benchmarks.py; the executed initial moisture is drying_X0_db of monte_carlo_disturbances_seed42.csv)
+PD-078,Ch11,Scenario_IIA1_Drying,Xf_target_apple,0.145,kg_w/kg_db,Author-selected design input,Descriptor only
+PD-079,Ch11,Scenario_IIA1_Drying,aw_max_apple,0.6,dimensionless,Author-selected design input,Executed
+PD-080,Ch11,Scenario_IIA1_Drying,D_eff0_apple,4.2e-06,m^2/s,Author-selected design input,Descriptor only for run_all_benchmarks.py (row not read by the runner); executed in verification: read by verify_ch10_ch11_ch12_reduction_error.py; the same value is coded in benchmark_ch04_drying_architectures.py and in M1a of benchmark_ch04_physical_drying.py
+PD-081,Ch11,Scenario_IIA1_Drying,Ea_diff_apple,28400.0,J/mol,Author-selected design input,Descriptor only for run_all_benchmarks.py (row not read by the runner); executed in verification: read by verify_ch10_ch11_ch12_reduction_error.py; the same value is coded in benchmark_ch04_drying_architectures.py and in M1a of benchmark_ch04_physical_drying.py
+PD-082,Ch11,Scenario_IIA1_Drying,Xm_gab,0.082,kg_w/kg_db,Author-selected design input,Executed
+PD-083,Ch11,Scenario_IIA1_Drying,C_gab,11.4,dimensionless,Author-selected design input,Executed
+PD-084,Ch11,Scenario_IIA1_Drying,K_gab,0.84,dimensionless,Author-selected design input,Executed
+PD-085,Ch11,Scenario_IIA1_Drying,SEC_base_drying,3.92,MJ/kg_H2O,Author-selected design input,Executed
+PD-086,Ch11,Scenario_IIA2_Baking,Tc_min_bake,96.0,degC,Author-selected design input,Descriptor only
+PD-087,Ch11,Scenario_IIA2_Baking,L_star_target,63.0,CIE_L,Author-selected design input,Descriptor only
+PD-088,Ch11,Scenario_IIA2_Baking,AA_max_bread,50.0,ug/kg,Author-selected design input,Descriptor only
+PD-089,Ch11,Scenario_IIA2_Baking,Ea_AA_bake,118000.0,J/mol,Author-selected design input,Descriptor only
+PD-090,Ch11,Scenario_IIA2_Baking,SEC_base_baking,1.88,MJ/kg_bread,Author-selected design input,Executed
+PD-091,Ch11,Scenario_IIB_Extrusion,K0_extr,14200.0,Pa_s^n,Author-selected design input,Descriptor only
+PD-092,Ch11,Scenario_IIB_Extrusion,n_extr,0.34,dimensionless,Author-selected design input,Descriptor only
+PD-093,Ch11,Scenario_IIB_Extrusion,WSI_target,22.0,pct,Author-selected design input,Descriptor only
+PD-094,Ch11,Scenario_IIB_Extrusion,SEI_target,3.8,dimensionless,Author-selected design input,Descriptor only
+PD-095,Ch11,Scenario_IIB_Extrusion,Salm_min_log,5.0,log10_CFU/g,Author-selected design input,Descriptor only
+PD-096,Ch11,Scenario_IIB_Extrusion,P_die_max_MPa,12.0,MPa,Author-selected design input,Descriptor only
+PD-097,Ch12,Scenario_IIIA_Fermentation,V_tot_ferm,25.0,m^3,Author-selected design input,Descriptor only
+PD-098,Ch12,Scenario_IIIA_Fermentation,V0_ferm,14.0,m^3,Author-selected design input,Descriptor only
+PD-099,Ch12,Scenario_IIIA_Fermentation,CS_in_ferm,550.0,g/L,Author-selected design input,Descriptor only
+PD-100,Ch12,Scenario_IIIA_Fermentation,CX0_ferm,4.5,g/L,Author-selected design input,Descriptor only
+PD-101,Ch12,Scenario_IIIA_Fermentation,qS_max_ferm,1.25,g_S/(g_X_h),Author-selected design input,Descriptor only
+PD-102,Ch12,Scenario_IIIA_Fermentation,qO2_max_ferm,0.256,g_O2/(g_X_h),Author-selected design input,Executed
+PD-103,Ch12,Scenario_IIIA_Fermentation,YXS_ox_ferm,0.49,g_X/g_S,Author-selected design input,Executed
+PD-104,Ch12,Scenario_IIIA_Fermentation,YXS_red_ferm,0.05,g_X/g_S,Author-selected design input (equal to Sonnleitner and Käppeli 1986; chosen for carbon closure of the reductive pathway),Executed
+PD-105,Ch12,Scenario_IIIA_Fermentation,dH_O2_ferm,440.0,kJ/mol_O2,"Birou et al., abstract: 440; strongly aerobic experiments",Descriptor only
+PD-106,Ch12,Scenario_IIIB_ColdChain,N_pallets_cc,240.0,pallets,Author-selected design input,Executed
+PD-107,Ch12,Scenario_IIIB_ColdChain,mu_ref_SSO,0.048,h^-1,Author-selected design input,Executed
+PD-108,Ch12,Scenario_IIIB_ColdChain,Ea_SSO_cc,68500.0,J/mol,Author-selected design input,Executed
+PD-109,Ch12,Scenario_IIIB_ColdChain,Ns_crit_log,7.0,log10_CFU/g,Author-selected design input,Executed
+PD-110,Ch12,Scenario_IIIB_ColdChain,mu_opt_Lm,0.42,h^-1,Author-selected design input,Sensitivity check only (verify_ch11_ch12_baking_extrusion_coldchain.py); not consumed by Table 12.5 (CSV Ch12_Table_12_4_Scenario_IIIB_ColdChain_Benchmark.csv)
+PD-111,Ch12,Scenario_IIIB_ColdChain,T_min_Lm_cc,-1.5,degC,Author-selected design input,Sensitivity check only (verify_ch11_ch12_baking_extrusion_coldchain.py); not consumed by Table 12.5 (CSV Ch12_Table_12_4_Scenario_IIIB_ColdChain_Benchmark.csv)
+PD-112,Ch12,Scenario_IIIB_ColdChain,Nh_crit_log,2.0,log10_CFU/g,Derived: log10(100) = 2,Executed
+PD-113,Ch12,Scenario_IIIB_ColdChain,RSL_min_retail,5.0,days,Author-selected design input,Descriptor only
+PD-114,Ch13,M9_Ch13_Econ,r_WACC,0.08,dimensionless,Author-selected design input,Executed
+PD-115,Ch13,M9_Ch13_Econ,tau_tax,0.25,dimensionless,Author-selected design input,Executed
+PD-116,Ch13,M9_Ch13_Econ,N_horizon_yr,5.0,yr,Author-selected design input,Executed
+PD-117,Ch13,M9_Ch13_Econ,CAPEX_IA,295000.0,EUR,Author-selected design input,Executed
+PD-118,Ch13,M9_Ch13_Econ,OPEX_IA,58000.0,EUR/yr,Author-selected design input,Executed
+PD-119,Ch13,M9_Ch13_Econ,BEN_IA,285000.0,EUR/yr,Author-selected design input,Executed
+PD-120,Ch13,M9_Ch13_Econ,CAPEX_IB,360000.0,EUR,Author-selected design input,Executed
+PD-121,Ch13,M9_Ch13_Econ,OPEX_IB,68000.0,EUR/yr,Author-selected design input,Executed
+PD-122,Ch13,M9_Ch13_Econ,BEN_IB,390000.0,EUR/yr,Author-selected design input,Executed
+PD-123,Ch13,M9_Ch13_Econ,CAPEX_II,420000.0,EUR,Author-selected design input,Executed
+PD-124,Ch13,M9_Ch13_Econ,OPEX_II,78000.0,EUR/yr,Author-selected design input,Executed
+PD-125,Ch13,M9_Ch13_Econ,BEN_II,540000.0,EUR/yr,Author-selected design input,Executed
+PD-126,Ch13,M9_Ch13_Econ,CAPEX_IIIA,485000.0,EUR,Author-selected design input,Executed
+PD-127,Ch13,M9_Ch13_Econ,OPEX_IIIA,92000.0,EUR/yr,Author-selected design input,Executed
+PD-128,Ch13,M9_Ch13_Econ,BEN_IIIA,610000.0,EUR/yr,Author-selected design input,Executed
+PD-129,Ch13,M9_Ch13_Econ,CAPEX_IIIB,340000.0,EUR,Author-selected design input,Executed
+PD-130,Ch13,M9_Ch13_Econ,OPEX_IIIB,65000.0,EUR/yr,Author-selected design input,Executed
+PD-131,Ch13,M9_Ch13_Econ,BEN_IIIB,495000.0,EUR/yr,Author-selected design input,Executed

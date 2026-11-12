@@ -1,0 +1,832 @@
+record_type,observer,metric,estimate,ci95_low,ci95_high,interval_method,n_units,unit,run,time_h,evidence_label
+design,,k_dep_nominal_calibrated_to_PD013,5.1e-05,,,,,m2 K/W per h,,,executed_example_reduced_model_generated_data_not_validation
+design,,heating_area_assigned,18.753884,,,,,m2,,,executed_example_reduced_model_generated_data_not_validation
+design,,runs,100.0,,,,,runs of 8 h,,,executed_example_reduced_model_generated_data_not_validation
+design,,steps_per_run,2880.0,,,,,steps of 10 s,,,executed_example_reduced_model_generated_data_not_validation
+design,,platform,,,,,,"Windows-10-10.0.26100-SP0 | Intel64 Family 6 Model 165 Stepping 2, GenuineIntel | Python 3.11.16 | NumPy 2.4.6",,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.124963,,,,,1e-4 m2 K/W,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.115723,,,,,fraction,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029301,,,,,1e-4 m2 K/W,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.154652,,,,,fraction,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.026616,,,,,1e-4 m2 K/W,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.024205,,,,,fraction,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.017909,,,,,1e-4 m2 K/W,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.062473,,,,,fraction,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.096734,,,,,1e-4 m2 K/W,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.13132,,,,,fraction,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.023131,,,,,1e-4 m2 K/W,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.146639,,,,,fraction,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.042137,,,,,1e-4 m2 K/W,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.116869,,,,,fraction,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.018808,,,,,1e-4 m2 K/W,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.049018,,,,,fraction,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.037215,,,,,1e-4 m2 K/W,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.092908,,,,,fraction,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.058976,,,,,1e-4 m2 K/W,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.141246,,,,,fraction,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.018847,,,,,1e-4 m2 K/W,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.066981,,,,,fraction,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.060031,,,,,1e-4 m2 K/W,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.082064,,,,,fraction,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029763,,,,,1e-4 m2 K/W,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.039092,,,,,fraction,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.081703,,,,,1e-4 m2 K/W,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.065984,,,,,fraction,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.026851,,,,,1e-4 m2 K/W,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.137578,,,,,fraction,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.023735,,,,,1e-4 m2 K/W,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.037054,,,,,fraction,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.043072,,,,,1e-4 m2 K/W,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.064727,,,,,fraction,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.048186,,,,,1e-4 m2 K/W,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.049352,,,,,fraction,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.084463,,,,,1e-4 m2 K/W,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.072776,,,,,fraction,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.070564,,,,,1e-4 m2 K/W,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.02464,,,,,fraction,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.034161,,,,,1e-4 m2 K/W,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.056893,,,,,fraction,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.040327,,,,,1e-4 m2 K/W,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.151757,,,,,fraction,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.056249,,,,,1e-4 m2 K/W,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.050652,,,,,fraction,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.027425,,,,,1e-4 m2 K/W,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.031945,,,,,fraction,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.036604,,,,,1e-4 m2 K/W,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.114794,,,,,fraction,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.07314,,,,,1e-4 m2 K/W,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.091146,,,,,fraction,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.035332,,,,,1e-4 m2 K/W,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.06934,,,,,fraction,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.073552,,,,,1e-4 m2 K/W,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.042583,,,,,fraction,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.077519,,,,,1e-4 m2 K/W,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.042444,,,,,fraction,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.041231,,,,,1e-4 m2 K/W,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.0907,,,,,fraction,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019621,,,,,1e-4 m2 K/W,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.058026,,,,,fraction,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019132,,,,,1e-4 m2 K/W,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.045916,,,,,fraction,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.071309,,,,,1e-4 m2 K/W,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.145485,,,,,fraction,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.039085,,,,,1e-4 m2 K/W,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.021486,,,,,fraction,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.047254,,,,,1e-4 m2 K/W,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.063939,,,,,fraction,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.048514,,,,,1e-4 m2 K/W,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.107369,,,,,fraction,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029325,,,,,1e-4 m2 K/W,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.058556,,,,,fraction,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.026937,,,,,1e-4 m2 K/W,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.024067,,,,,fraction,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019002,,,,,1e-4 m2 K/W,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.095656,,,,,fraction,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.057023,,,,,1e-4 m2 K/W,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.020794,,,,,fraction,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.023298,,,,,1e-4 m2 K/W,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.020574,,,,,fraction,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.114613,,,,,1e-4 m2 K/W,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.095095,,,,,fraction,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.11541,,,,,1e-4 m2 K/W,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.066138,,,,,fraction,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.049333,,,,,1e-4 m2 K/W,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.0618,,,,,fraction,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.057598,,,,,1e-4 m2 K/W,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.121731,,,,,fraction,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.031263,,,,,1e-4 m2 K/W,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.082852,,,,,fraction,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.017901,,,,,1e-4 m2 K/W,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.053934,,,,,fraction,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.034592,,,,,1e-4 m2 K/W,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.022155,,,,,fraction,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.023577,,,,,1e-4 m2 K/W,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.025699,,,,,fraction,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.020144,,,,,1e-4 m2 K/W,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.024109,,,,,fraction,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.020704,,,,,1e-4 m2 K/W,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.057143,,,,,fraction,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.085169,,,,,1e-4 m2 K/W,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.13312,,,,,fraction,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.086084,,,,,1e-4 m2 K/W,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.146015,,,,,fraction,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.061184,,,,,1e-4 m2 K/W,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.101876,,,,,fraction,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.043892,,,,,1e-4 m2 K/W,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.109267,,,,,fraction,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.086144,,,,,1e-4 m2 K/W,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.12882,,,,,fraction,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.083139,,,,,1e-4 m2 K/W,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.02379,,,,,fraction,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.094621,,,,,1e-4 m2 K/W,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.095187,,,,,fraction,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.022495,,,,,1e-4 m2 K/W,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.135982,,,,,fraction,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.0182,,,,,1e-4 m2 K/W,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.051482,,,,,fraction,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.06135,,,,,1e-4 m2 K/W,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.111266,,,,,fraction,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.059569,,,,,1e-4 m2 K/W,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.064861,,,,,fraction,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.090757,,,,,1e-4 m2 K/W,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.084054,,,,,fraction,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.043857,,,,,1e-4 m2 K/W,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.148757,,,,,fraction,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029614,,,,,1e-4 m2 K/W,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.056169,,,,,fraction,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.021771,,,,,1e-4 m2 K/W,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.114259,,,,,fraction,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.070218,,,,,1e-4 m2 K/W,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.020948,,,,,fraction,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.02682,,,,,1e-4 m2 K/W,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.037257,,,,,fraction,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029892,,,,,1e-4 m2 K/W,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.031327,,,,,fraction,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.061356,,,,,1e-4 m2 K/W,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.08689,,,,,fraction,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.032628,,,,,1e-4 m2 K/W,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.065032,,,,,fraction,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.0205,,,,,1e-4 m2 K/W,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.02112,,,,,fraction,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.033559,,,,,1e-4 m2 K/W,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.139206,,,,,fraction,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.054386,,,,,1e-4 m2 K/W,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.102645,,,,,fraction,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.121171,,,,,1e-4 m2 K/W,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.113807,,,,,fraction,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.045993,,,,,1e-4 m2 K/W,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.02507,,,,,fraction,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.078526,,,,,1e-4 m2 K/W,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.080644,,,,,fraction,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.066043,,,,,1e-4 m2 K/W,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.054069,,,,,fraction,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019301,,,,,1e-4 m2 K/W,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.108968,,,,,fraction,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.074994,,,,,1e-4 m2 K/W,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.068906,,,,,fraction,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.103468,,,,,1e-4 m2 K/W,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.08683,,,,,fraction,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.029169,,,,,1e-4 m2 K/W,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.105087,,,,,fraction,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.104241,,,,,1e-4 m2 K/W,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.126554,,,,,fraction,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.018081,,,,,1e-4 m2 K/W,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.062744,,,,,fraction,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019708,,,,,1e-4 m2 K/W,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.084215,,,,,fraction,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.042932,,,,,1e-4 m2 K/W,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.021241,,,,,fraction,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.098194,,,,,1e-4 m2 K/W,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.105539,,,,,fraction,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.041565,,,,,1e-4 m2 K/W,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.020209,,,,,fraction,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.021735,,,,,1e-4 m2 K/W,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.061309,,,,,fraction,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.093657,,,,,1e-4 m2 K/W,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.094634,,,,,fraction,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.035827,,,,,1e-4 m2 K/W,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.08292,,,,,fraction,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.027594,,,,,1e-4 m2 K/W,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.028075,,,,,fraction,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.092785,,,,,1e-4 m2 K/W,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.127088,,,,,fraction,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019816,,,,,1e-4 m2 K/W,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.067742,,,,,fraction,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.021765,,,,,1e-4 m2 K/W,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.079901,,,,,fraction,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.019288,,,,,1e-4 m2 K/W,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.079323,,,,,fraction,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.122563,,,,,1e-4 m2 K/W,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.025963,,,,,fraction,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.02242,,,,,1e-4 m2 K/W,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.168833,,,,,fraction,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.032587,,,,,1e-4 m2 K/W,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.08305,,,,,fraction,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,rmse_R,0.070539,,,,,1e-4 m2 K/W,5099.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,EKF,relerr_k_late,0.017672,,,,,fraction,5099.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.124992,,,,,1e-4 m2 K/W,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.115645,,,,,fraction,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029312,,,,,1e-4 m2 K/W,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.154602,,,,,fraction,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.026654,,,,,1e-4 m2 K/W,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.024152,,,,,fraction,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.017908,,,,,1e-4 m2 K/W,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.062388,,,,,fraction,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.096747,,,,,1e-4 m2 K/W,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.131249,,,,,fraction,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.023141,,,,,1e-4 m2 K/W,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.146587,,,,,fraction,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.042147,,,,,1e-4 m2 K/W,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.116804,,,,,fraction,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.018799,,,,,1e-4 m2 K/W,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.048933,,,,,fraction,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.037203,,,,,1e-4 m2 K/W,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.092838,,,,,fraction,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.058984,,,,,1e-4 m2 K/W,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.141195,,,,,fraction,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.018842,,,,,1e-4 m2 K/W,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.0669,,,,,fraction,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.060023,,,,,1e-4 m2 K/W,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.081996,,,,,fraction,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029827,,,,,1e-4 m2 K/W,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.039201,,,,,fraction,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.081753,,,,,1e-4 m2 K/W,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.065892,,,,,fraction,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.026869,,,,,1e-4 m2 K/W,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.137521,,,,,fraction,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.023709,,,,,1e-4 m2 K/W,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.03697,,,,,fraction,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.043112,,,,,1e-4 m2 K/W,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.064642,,,,,fraction,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.04816,,,,,1e-4 m2 K/W,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.049273,,,,,fraction,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.084507,,,,,1e-4 m2 K/W,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.072688,,,,,fraction,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.070526,,,,,1e-4 m2 K/W,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.024578,,,,,fraction,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.034197,,,,,1e-4 m2 K/W,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.056806,,,,,fraction,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.040316,,,,,1e-4 m2 K/W,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.151719,,,,,fraction,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.056302,,,,,1e-4 m2 K/W,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.050563,,,,,fraction,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.027389,,,,,1e-4 m2 K/W,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.031865,,,,,fraction,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.036599,,,,,1e-4 m2 K/W,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.114735,,,,,fraction,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.073172,,,,,1e-4 m2 K/W,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.091064,,,,,fraction,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.035307,,,,,1e-4 m2 K/W,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.069262,,,,,fraction,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.073519,,,,,1e-4 m2 K/W,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.042504,,,,,fraction,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.077489,,,,,1e-4 m2 K/W,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.042366,,,,,fraction,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.041205,,,,,1e-4 m2 K/W,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.090629,,,,,fraction,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019637,,,,,1e-4 m2 K/W,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.057939,,,,,fraction,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019139,,,,,1e-4 m2 K/W,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.045836,,,,,fraction,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.071312,,,,,1e-4 m2 K/W,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.145426,,,,,fraction,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.039027,,,,,1e-4 m2 K/W,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.021542,,,,,fraction,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.04724,,,,,1e-4 m2 K/W,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.063861,,,,,fraction,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.048512,,,,,1e-4 m2 K/W,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.107305,,,,,fraction,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029356,,,,,1e-4 m2 K/W,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.058476,,,,,fraction,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.026992,,,,,1e-4 m2 K/W,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.024084,,,,,fraction,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019015,,,,,1e-4 m2 K/W,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.095587,,,,,fraction,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.056975,,,,,1e-4 m2 K/W,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.020738,,,,,fraction,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.023262,,,,,1e-4 m2 K/W,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.020582,,,,,fraction,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.114615,,,,,1e-4 m2 K/W,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.095037,,,,,fraction,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.115395,,,,,1e-4 m2 K/W,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.066069,,,,,fraction,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.04931,,,,,1e-4 m2 K/W,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.061725,,,,,fraction,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.057612,,,,,1e-4 m2 K/W,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.121668,,,,,fraction,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.031262,,,,,1e-4 m2 K/W,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.082781,,,,,fraction,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.017894,,,,,1e-4 m2 K/W,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.053847,,,,,fraction,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.034549,,,,,1e-4 m2 K/W,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.022109,,,,,fraction,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.023534,,,,,1e-4 m2 K/W,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.025772,,,,,fraction,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.020164,,,,,1e-4 m2 K/W,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.024138,,,,,fraction,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.020688,,,,,1e-4 m2 K/W,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.057061,,,,,fraction,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.085177,,,,,1e-4 m2 K/W,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.133069,,,,,fraction,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.086092,,,,,1e-4 m2 K/W,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.145953,,,,,fraction,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.061186,,,,,1e-4 m2 K/W,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.101812,,,,,fraction,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.043903,,,,,1e-4 m2 K/W,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.109198,,,,,fraction,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.086159,,,,,1e-4 m2 K/W,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.128772,,,,,fraction,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.0831,,,,,1e-4 m2 K/W,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.023728,,,,,fraction,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.094658,,,,,1e-4 m2 K/W,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.095102,,,,,fraction,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.02249,,,,,1e-4 m2 K/W,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.135925,,,,,fraction,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.018196,,,,,1e-4 m2 K/W,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.051397,,,,,fraction,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.061262,,,,,1e-4 m2 K/W,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.111415,,,,,fraction,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.059553,,,,,1e-4 m2 K/W,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.064787,,,,,fraction,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.090791,,,,,1e-4 m2 K/W,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.08397,,,,,fraction,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.04387,,,,,1e-4 m2 K/W,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.148709,,,,,fraction,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029639,,,,,1e-4 m2 K/W,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.056088,,,,,fraction,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.021789,,,,,1e-4 m2 K/W,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.114191,,,,,fraction,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.070174,,,,,1e-4 m2 K/W,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.021,,,,,fraction,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.026874,,,,,1e-4 m2 K/W,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.037354,,,,,fraction,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029852,,,,,1e-4 m2 K/W,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.031248,,,,,fraction,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.061338,,,,,1e-4 m2 K/W,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.086821,,,,,fraction,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.032602,,,,,1e-4 m2 K/W,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.064953,,,,,fraction,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.020521,,,,,1e-4 m2 K/W,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.021154,,,,,fraction,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.033556,,,,,1e-4 m2 K/W,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.139153,,,,,fraction,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.054413,,,,,1e-4 m2 K/W,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.102567,,,,,fraction,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.121175,,,,,1e-4 m2 K/W,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.113753,,,,,fraction,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.04596,,,,,1e-4 m2 K/W,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.025015,,,,,fraction,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.078564,,,,,1e-4 m2 K/W,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.080552,,,,,fraction,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.066098,,,,,1e-4 m2 K/W,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.053975,,,,,fraction,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019312,,,,,1e-4 m2 K/W,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.108901,,,,,fraction,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.075035,,,,,1e-4 m2 K/W,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.068818,,,,,fraction,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.103459,,,,,1e-4 m2 K/W,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.086765,,,,,fraction,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.029176,,,,,1e-4 m2 K/W,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.105017,,,,,fraction,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.104249,,,,,1e-4 m2 K/W,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.126503,,,,,fraction,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.018076,,,,,1e-4 m2 K/W,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.062658,,,,,fraction,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019719,,,,,1e-4 m2 K/W,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.084139,,,,,fraction,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.042875,,,,,1e-4 m2 K/W,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.021307,,,,,fraction,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.098193,,,,,1e-4 m2 K/W,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.105481,,,,,fraction,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.041526,,,,,1e-4 m2 K/W,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.020227,,,,,fraction,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.02174,,,,,1e-4 m2 K/W,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.061221,,,,,fraction,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.093651,,,,,1e-4 m2 K/W,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.094572,,,,,fraction,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.035857,,,,,1e-4 m2 K/W,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.082839,,,,,fraction,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.027649,,,,,1e-4 m2 K/W,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.028149,,,,,fraction,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.0928,,,,,1e-4 m2 K/W,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.127021,,,,,fraction,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019813,,,,,1e-4 m2 K/W,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.067661,,,,,fraction,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.021753,,,,,1e-4 m2 K/W,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.079825,,,,,fraction,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.019278,,,,,1e-4 m2 K/W,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.079243,,,,,fraction,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.122537,,,,,1e-4 m2 K/W,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.025895,,,,,fraction,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.022353,,,,,1e-4 m2 K/W,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.169007,,,,,fraction,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.03257,,,,,1e-4 m2 K/W,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.082977,,,,,fraction,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,rmse_R,0.070496,,,,,1e-4 m2 K/W,5099.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,UKF,relerr_k_late,0.017643,,,,,fraction,5099.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.403651,,,,,1e-4 m2 K/W,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.249369,,,,,fraction,5000.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.5226,,,,,1e-4 m2 K/W,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.531212,,,,,fraction,5001.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.465301,,,,,1e-4 m2 K/W,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.305604,,,,,fraction,5002.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.07515,,,,,1e-4 m2 K/W,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.102196,,,,,fraction,5003.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.696019,,,,,1e-4 m2 K/W,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.35143,,,,,fraction,5004.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.318257,,,,,1e-4 m2 K/W,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.4934,,,,,fraction,5005.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.698134,,,,,1e-4 m2 K/W,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.343266,,,,,fraction,5006.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.126357,,,,,1e-4 m2 K/W,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.031659,,,,,fraction,5007.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.526396,,,,,1e-4 m2 K/W,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.296898,,,,,fraction,5008.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.454298,,,,,1e-4 m2 K/W,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.52194,,,,,fraction,5009.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.164334,,,,,1e-4 m2 K/W,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.144479,,,,,fraction,5010.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.508743,,,,,1e-4 m2 K/W,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.285332,,,,,fraction,5011.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.693677,,,,,1e-4 m2 K/W,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.627662,,,,,fraction,5012.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.089046,,,,,1e-4 m2 K/W,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.028203,,,,,fraction,5013.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.146645,,,,,1e-4 m2 K/W,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.462842,,,,,fraction,5014.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.171817,,,,,1e-4 m2 K/W,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.048727,,,,,fraction,5015.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.038675,,,,,1e-4 m2 K/W,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.070524,,,,,fraction,5016.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.069948,,,,,1e-4 m2 K/W,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.101226,,,,,fraction,5017.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.057951,,,,,1e-4 m2 K/W,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.03073,,,,,fraction,5018.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.140851,,,,,1e-4 m2 K/W,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.048263,,,,,fraction,5019.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.102443,,,,,1e-4 m2 K/W,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.029526,,,,,fraction,5020.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,2.652843,,,,,1e-4 m2 K/W,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.639866,,,,,fraction,5021.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.236288,,,,,1e-4 m2 K/W,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.11413,,,,,fraction,5022.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.186008,,,,,1e-4 m2 K/W,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.061981,,,,,fraction,5023.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.82753,,,,,1e-4 m2 K/W,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.385445,,,,,fraction,5024.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.192116,,,,,1e-4 m2 K/W,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.15595,,,,,fraction,5025.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.224768,,,,,1e-4 m2 K/W,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.179909,,,,,fraction,5026.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.04973,,,,,1e-4 m2 K/W,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.084518,,,,,fraction,5027.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.055488,,,,,1e-4 m2 K/W,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.07778,,,,,fraction,5028.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.475162,,,,,1e-4 m2 K/W,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.277502,,,,,fraction,5029.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.041304,,,,,1e-4 m2 K/W,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.073366,,,,,fraction,5030.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.108708,,,,,1e-4 m2 K/W,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.036962,,,,,fraction,5031.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.078184,,,,,1e-4 m2 K/W,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.443644,,,,,fraction,5032.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.460309,,,,,1e-4 m2 K/W,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.33857,,,,,fraction,5033.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.254968,,,,,1e-4 m2 K/W,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.195729,,,,,fraction,5034.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.795428,,,,,1e-4 m2 K/W,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.382434,,,,,fraction,5035.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.063236,,,,,1e-4 m2 K/W,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.050007,,,,,fraction,5036.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.450627,,,,,1e-4 m2 K/W,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.320568,,,,,fraction,5037.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.558832,,,,,1e-4 m2 K/W,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.304052,,,,,fraction,5038.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.30704,,,,,1e-4 m2 K/W,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.144337,,,,,fraction,5039.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.429371,,,,,1e-4 m2 K/W,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.276183,,,,,fraction,5040.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.884209,,,,,1e-4 m2 K/W,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.397129,,,,,fraction,5041.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.443327,,,,,1e-4 m2 K/W,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.269791,,,,,fraction,5042.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.235647,,,,,1e-4 m2 K/W,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.164078,,,,,fraction,5043.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.809462,,,,,1e-4 m2 K/W,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.372881,,,,,fraction,5044.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.488789,,,,,1e-4 m2 K/W,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.275646,,,,,fraction,5045.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.072018,,,,,1e-4 m2 K/W,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.03128,,,,,fraction,5046.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.280195,,,,,1e-4 m2 K/W,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.164584,,,,,fraction,5047.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.495292,,,,,1e-4 m2 K/W,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.378041,,,,,fraction,5048.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.434606,,,,,1e-4 m2 K/W,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.263322,,,,,fraction,5049.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.047044,,,,,1e-4 m2 K/W,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.082383,,,,,fraction,5050.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.291161,,,,,1e-4 m2 K/W,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.495272,,,,,fraction,5051.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.97842,,,,,1e-4 m2 K/W,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.42624,,,,,fraction,5052.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.791474,,,,,1e-4 m2 K/W,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.380716,,,,,fraction,5053.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.56288,,,,,1e-4 m2 K/W,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.30112,,,,,fraction,5054.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.427038,,,,,1e-4 m2 K/W,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.509046,,,,,fraction,5055.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.147635,,,,,1e-4 m2 K/W,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.034719,,,,,fraction,5056.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.164188,,,,,1e-4 m2 K/W,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.147553,,,,,fraction,5057.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.046454,,,,,1e-4 m2 K/W,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.436418,,,,,fraction,5058.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.133246,,,,,1e-4 m2 K/W,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.028895,,,,,fraction,5059.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.868753,,,,,1e-4 m2 K/W,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.903189,,,,,fraction,5060.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.306625,,,,,1e-4 m2 K/W,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.209962,,,,,fraction,5061.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.106587,,,,,1e-4 m2 K/W,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.102191,,,,,fraction,5062.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.702777,,,,,1e-4 m2 K/W,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.555811,,,,,fraction,5063.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.042958,,,,,1e-4 m2 K/W,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.032689,,,,,fraction,5064.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.708568,,,,,1e-4 m2 K/W,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.357697,,,,,fraction,5065.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.316409,,,,,1e-4 m2 K/W,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.165429,,,,,fraction,5066.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.633365,,,,,1e-4 m2 K/W,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.525258,,,,,fraction,5067.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.226431,,,,,1e-4 m2 K/W,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.08993,,,,,fraction,5068.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.516279,,,,,1e-4 m2 K/W,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.294202,,,,,fraction,5069.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.151004,,,,,1e-4 m2 K/W,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.141206,,,,,fraction,5070.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.499524,,,,,1e-4 m2 K/W,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.336705,,,,,fraction,5071.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.233865,,,,,1e-4 m2 K/W,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.481613,,,,,fraction,5072.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.392489,,,,,1e-4 m2 K/W,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.250242,,,,,fraction,5073.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.094411,,,,,1e-4 m2 K/W,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.45534,,,,,fraction,5074.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.172376,,,,,1e-4 m2 K/W,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.078885,,,,,fraction,5075.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.065589,,,,,1e-4 m2 K/W,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.096211,,,,,fraction,5076.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.21862,,,,,1e-4 m2 K/W,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.08062,,,,,fraction,5077.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.687151,,,,,1e-4 m2 K/W,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.347426,,,,,fraction,5078.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.03382,,,,,1e-4 m2 K/W,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.05696,,,,,fraction,5079.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.652224,,,,,1e-4 m2 K/W,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.340312,,,,,fraction,5080.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.509455,,,,,1e-4 m2 K/W,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.282812,,,,,fraction,5081.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.272103,,,,,1e-4 m2 K/W,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.489495,,,,,fraction,5082.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.076115,,,,,1e-4 m2 K/W,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.10478,,,,,fraction,5083.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.378949,,,,,1e-4 m2 K/W,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.24627,,,,,fraction,5084.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.465749,,,,,1e-4 m2 K/W,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.291454,,,,,fraction,5085.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.889002,,,,,1e-4 m2 K/W,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.407617,,,,,fraction,5086.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.312351,,,,,1e-4 m2 K/W,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.186539,,,,,fraction,5087.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.047023,,,,,1e-4 m2 K/W,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.064726,,,,,fraction,5088.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.74642,,,,,1e-4 m2 K/W,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.361311,,,,,fraction,5089.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.236944,,,,,1e-4 m2 K/W,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.185668,,,,,fraction,5090.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.543987,,,,,1e-4 m2 K/W,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.443165,,,,,fraction,5091.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.751624,,,,,1e-4 m2 K/W,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.358995,,,,,fraction,5092.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.127114,,,,,1e-4 m2 K/W,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.127733,,,,,fraction,5093.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.304182,,,,,1e-4 m2 K/W,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.212852,,,,,fraction,5094.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.26498,,,,,1e-4 m2 K/W,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.196051,,,,,fraction,5095.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.045763,,,,,1e-4 m2 K/W,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.071962,,,,,fraction,5096.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,1.092154,,,,,1e-4 m2 K/W,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,1.736755,,,,,fraction,5097.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.350423,,,,,1e-4 m2 K/W,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.225771,,,,,fraction,5098.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,rmse_R,0.246955,,,,,1e-4 m2 K/W,5099.0,,executed_example_reduced_model_generated_data_not_validation
+per_run,open_loop,relerr_k_late,0.103072,,,,,fraction,5099.0,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,rmse_R_mean_over_runs,0.050053,0.044438,0.055676,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,rmse_R_p95_over_runs,0.10476,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,err_R_8h_mean_over_runs,0.060686,0.052709,0.068969,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,err_R_8h_p95_over_runs,0.139552,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,relerr_k_late_mean_over_runs,0.076798,0.069415,0.084757,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,relerr_k_late_p95_over_runs,0.146046,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,rmse_T_mean_over_runs,0.087668,0.087323,0.08802,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,rmse_T_p95_over_runs,0.09119,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,cover95_R_mean_over_runs,0.745367,0.680854,0.810246,bootstrap_over_runs,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,cover95_R_p95_over_runs,1.0,,,,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,nis_mean_mean_over_runs,0.814139,0.810136,0.818138,bootstrap_over_runs,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,nis_mean_p95_over_runs,0.85025,,,,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,rmse_R_mean_over_runs,0.050053,0.044316,0.055798,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,rmse_R_p95_over_runs,0.104767,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,err_R_8h_mean_over_runs,0.060691,0.052525,0.069022,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,err_R_8h_p95_over_runs,0.139596,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,relerr_k_late_mean_over_runs,0.076747,0.069326,0.084776,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,relerr_k_late_p95_over_runs,0.145985,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,rmse_T_mean_over_runs,0.087666,0.087309,0.088007,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,rmse_T_p95_over_runs,0.09119,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,cover95_R_mean_over_runs,0.745363,0.679741,0.807758,bootstrap_over_runs,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,cover95_R_p95_over_runs,1.0,,,,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,nis_mean_mean_over_runs,0.814138,0.809999,0.8186,bootstrap_over_runs,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,nis_mean_p95_over_runs,0.850249,,,,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,rmse_R_mean_over_runs,0.499424,0.411844,0.59136,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,rmse_R_p95_over_runs,1.323696,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,err_R_8h_mean_over_runs,0.880098,0.731964,1.046663,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,err_R_8h_p95_over_runs,2.400099,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,relerr_k_late_mean_over_runs,0.268054,0.226681,0.315714,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,relerr_k_late_p95_over_runs,0.532442,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,rmse_T_mean_over_runs,1.714452,1.410828,2.04306,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,open_loop,rmse_T_p95_over_runs,4.841719,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,ANEES_mean_after_30min,4.51222,,,,100.0,expected 3 for a consistent filter,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,ANEES_fraction_of_steps_inside_95pct_band,0.248519,2.539123,3.498745,band_limits_chi2_3x100_dof_over_100,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,ANEES_fraction_of_steps_above_band,0.700741,,,,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,wall_clock_per_step_median,65.5,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,wall_clock_per_step_p99,187.9,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,wall_clock_per_step_p99_9,589.9444,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,EKF,wall_clock_per_step_max_observed,18827.8,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,ANEES_mean_after_30min,4.511753,,,,100.0,expected 3 for a consistent filter,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,ANEES_fraction_of_steps_inside_95pct_band,0.247778,2.539123,3.498745,band_limits_chi2_3x100_dof_over_100,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,ANEES_fraction_of_steps_above_band,0.700741,,,,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,wall_clock_per_step_median,194.0,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,wall_clock_per_step_p99,504.401,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,wall_clock_per_step_p99_9,1181.2,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+summary,UKF,wall_clock_per_step_max_observed,9794.1,,,,287900.0,"microseconds (desktop PC, Python/NumPy; not WCET)",,,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1446.388934,,,,,-,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1425.828212,,,,,-,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1415.009207,,,,,-,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1409.747931,,,,,-,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1406.808,,,,,-,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1405.487618,,,,,-,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,rank_of_local_observability_matrix,3.0,,,,,of 3,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+observability_run0,EKF,condition_number_scaled_coordinates,1404.782526,,,,,-,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,0.021648,,,,,1e-4 m2 K/W,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.561837,,,,,1e-4 m2 K/W per h,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,140.876987,,,,,degC,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,0.0,,,,,1e-4 m2 K/W,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,0.0,-0.196,0.196,filter_covariance,,1e-4 m2 K/W,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.508823,,,,,1e-4 m2 K/W per h,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,0.0,-0.196,0.196,filter_covariance,,1e-4 m2 K/W,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.508823,,,,,1e-4 m2 K/W per h,5000.0,0.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,0.295952,,,,,1e-4 m2 K/W,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.570173,,,,,1e-4 m2 K/W per h,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,141.677527,,,,,degC,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,0.248156,,,,,1e-4 m2 K/W,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,0.188356,0.110909,0.265804,filter_covariance,,1e-4 m2 K/W,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.505238,,,,,1e-4 m2 K/W per h,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,0.188143,0.110689,0.265598,filter_covariance,,1e-4 m2 K/W,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.505437,,,,,1e-4 m2 K/W per h,5000.0,0.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,0.560542,,,,,1e-4 m2 K/W,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.576985,,,,,1e-4 m2 K/W per h,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,142.24409,,,,,degC,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,0.484209,,,,,1e-4 m2 K/W,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,0.457653,0.38304,0.532267,filter_covariance,,1e-4 m2 K/W,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.521778,,,,,1e-4 m2 K/W per h,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,0.457507,0.382889,0.532125,filter_covariance,,1e-4 m2 K/W,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.521956,,,,,1e-4 m2 K/W per h,5000.0,1.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,0.816623,,,,,1e-4 m2 K/W,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.587875,,,,,1e-4 m2 K/W per h,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,142.922565,,,,,degC,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,0.70875,,,,,1e-4 m2 K/W,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,0.72182,0.649203,0.794436,filter_covariance,,1e-4 m2 K/W,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.53575,,,,,1e-4 m2 K/W per h,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,0.721717,0.649097,0.794336,filter_covariance,,1e-4 m2 K/W,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.535905,,,,,1e-4 m2 K/W per h,5000.0,1.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,1.064497,,,,,1e-4 m2 K/W,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.593236,,,,,1e-4 m2 K/W per h,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,143.56245,,,,,degC,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,0.92234,,,,,1e-4 m2 K/W,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,0.965095,0.894181,1.036009,filter_covariance,,1e-4 m2 K/W,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.542478,,,,,1e-4 m2 K/W per h,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,0.965023,0.894107,1.035939,filter_covariance,,1e-4 m2 K/W,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.542614,,,,,1e-4 m2 K/W per h,5000.0,2.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,1.305023,,,,,1e-4 m2 K/W,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.607154,,,,,1e-4 m2 K/W per h,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,144.623249,,,,,degC,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,1.125513,,,,,1e-4 m2 K/W,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,1.200535,1.130769,1.270301,filter_covariance,,1e-4 m2 K/W,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.54887,,,,,1e-4 m2 K/W per h,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,1.200487,1.130719,1.270254,filter_covariance,,1e-4 m2 K/W,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.54899,,,,,1e-4 m2 K/W per h,5000.0,2.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,1.538673,,,,,1e-4 m2 K/W,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.614331,,,,,1e-4 m2 K/W per h,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,145.157692,,,,,degC,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,1.318777,,,,,1e-4 m2 K/W,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,1.456686,1.387972,1.525399,filter_covariance,,1e-4 m2 K/W,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.564899,,,,,1e-4 m2 K/W per h,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,1.456655,1.38794,1.52537,filter_covariance,,1e-4 m2 K/W,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.565005,,,,,1e-4 m2 K/W per h,5000.0,3.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,1.76606,,,,,1e-4 m2 K/W,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.623511,,,,,1e-4 m2 K/W per h,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,145.892645,,,,,degC,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,1.502615,,,,,1e-4 m2 K/W,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,1.652058,1.583968,1.720148,filter_covariance,,1e-4 m2 K/W,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.562121,,,,,1e-4 m2 K/W per h,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,1.65204,1.583949,1.720131,filter_covariance,,1e-4 m2 K/W,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.562214,,,,,1e-4 m2 K/W per h,5000.0,3.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,1.986895,,,,,1e-4 m2 K/W,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.632971,,,,,1e-4 m2 K/W per h,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,146.706386,,,,,degC,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,1.677488,,,,,1e-4 m2 K/W,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,1.870423,1.803137,1.937709,filter_covariance,,1e-4 m2 K/W,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.569837,,,,,1e-4 m2 K/W per h,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,1.870417,1.80313,1.937704,filter_covariance,,1e-4 m2 K/W,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.56992,,,,,1e-4 m2 K/W per h,5000.0,4.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,2.201941,,,,,1e-4 m2 K/W,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.643477,,,,,1e-4 m2 K/W per h,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,147.471267,,,,,degC,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,1.843832,,,,,1e-4 m2 K/W,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,2.066924,1.999916,2.133933,filter_covariance,,1e-4 m2 K/W,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.572946,,,,,1e-4 m2 K/W per h,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,2.066924,1.999915,2.133934,filter_covariance,,1e-4 m2 K/W,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.573019,,,,,1e-4 m2 K/W per h,5000.0,4.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,2.412094,,,,,1e-4 m2 K/W,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.656192,,,,,1e-4 m2 K/W per h,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,148.270392,,,,,degC,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.002063,,,,,1e-4 m2 K/W,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,2.288186,2.221387,2.354984,filter_covariance,,1e-4 m2 K/W,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.585241,,,,,1e-4 m2 K/W per h,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,2.288193,2.221394,2.354993,filter_covariance,,1e-4 m2 K/W,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.585306,,,,,1e-4 m2 K/W per h,5000.0,5.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,2.61681,,,,,1e-4 m2 K/W,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.667341,,,,,1e-4 m2 K/W per h,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,149.181845,,,,,degC,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.152577,,,,,1e-4 m2 K/W,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,2.47838,2.411857,2.544904,filter_covariance,,1e-4 m2 K/W,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.590088,,,,,1e-4 m2 K/W per h,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,2.478394,2.41187,2.544918,filter_covariance,,1e-4 m2 K/W,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.590145,,,,,1e-4 m2 K/W per h,5000.0,5.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,2.817381,,,,,1e-4 m2 K/W,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.675094,,,,,1e-4 m2 K/W per h,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,149.633431,,,,,degC,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.295751,,,,,1e-4 m2 K/W,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,2.672742,2.606454,2.73903,filter_covariance,,1e-4 m2 K/W,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.597487,,,,,1e-4 m2 K/W per h,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,2.672761,2.606472,2.739049,filter_covariance,,1e-4 m2 K/W,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.597538,,,,,1e-4 m2 K/W per h,5000.0,6.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,3.012865,,,,,1e-4 m2 K/W,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.689307,,,,,1e-4 m2 K/W per h,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,150.702779,,,,,degC,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.431941,,,,,1e-4 m2 K/W,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,2.885245,2.818759,2.951731,filter_covariance,,1e-4 m2 K/W,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.611951,,,,,1e-4 m2 K/W per h,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,2.885268,2.818781,2.951754,filter_covariance,,1e-4 m2 K/W,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.611997,,,,,1e-4 m2 K/W per h,5000.0,6.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,3.203621,,,,,1e-4 m2 K/W,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.699274,,,,,1e-4 m2 K/W per h,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,151.437411,,,,,degC,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.56149,,,,,1e-4 m2 K/W,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,3.048153,2.981919,3.114387,filter_covariance,,1e-4 m2 K/W,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.613587,,,,,1e-4 m2 K/W per h,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,3.048179,2.981945,3.114414,filter_covariance,,1e-4 m2 K/W,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.613628,,,,,1e-4 m2 K/W per h,5000.0,7.0,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,R_f,3.390994,,,,,1e-4 m2 K/W,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,k_dep,0.711151,,,,,1e-4 m2 K/W per h,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,truth,T_h,152.15415,,,,,degC,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,open_loop,R_f,2.684721,,,,,1e-4 m2 K/W,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,R_f,3.256455,3.1903,3.32261,filter_covariance,,1e-4 m2 K/W,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,EKF,k_dep,0.62944,,,,,1e-4 m2 K/W per h,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,R_f,3.256485,3.190329,3.32264,filter_covariance,,1e-4 m2 K/W,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+trajectory_run0,UKF,k_dep,0.629476,,,,,1e-4 m2 K/W per h,5000.0,7.5,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,rmse_R_mean_over_runs,0.018892,0.018712,0.019058,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,rmse_R_p95_over_runs,0.020395,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,err_R_8h_mean_over_runs,0.012705,0.010877,0.014577,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,err_R_8h_p95_over_runs,0.02904,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,relerr_k_late_mean_over_runs,0.028228,0.023911,0.033484,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,relerr_k_late_p95_over_runs,0.058927,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,rmse_T_mean_over_runs,0.087581,0.08726,0.08794,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,rmse_T_p95_over_runs,0.091155,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,cover95_R_mean_over_runs,0.999737,0.999652,0.999815,bootstrap_over_runs,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,cover95_R_p95_over_runs,1.0,,,,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,nis_mean_mean_over_runs,0.814353,0.810502,0.818461,bootstrap_over_runs,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,nis_mean_p95_over_runs,0.85007,,,,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,rmse_R_mean_over_runs,0.018895,0.018732,0.019068,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,rmse_R_p95_over_runs,0.020394,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,err_R_8h_mean_over_runs,0.012706,0.010862,0.014709,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,err_R_8h_p95_over_runs,0.029047,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,relerr_k_late_mean_over_runs,0.028247,0.023859,0.033278,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,relerr_k_late_p95_over_runs,0.059053,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,rmse_T_mean_over_runs,0.08758,0.087242,0.087933,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,rmse_T_p95_over_runs,0.091155,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,cover95_R_mean_over_runs,0.999733,0.999648,0.999815,bootstrap_over_runs,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,cover95_R_p95_over_runs,1.0,,,,100.0,fraction of run-steps after 30 min,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,nis_mean_mean_over_runs,0.814352,0.810276,0.818642,bootstrap_over_runs,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,nis_mean_p95_over_runs,0.850069,,,,100.0,mean NIS (1 dof),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,rmse_R_mean_over_runs,0.383203,0.327001,0.443425,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,rmse_R_p95_over_runs,0.934198,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,err_R_8h_mean_over_runs,0.603666,0.514278,0.699282,bootstrap_over_runs,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,err_R_8h_p95_over_runs,1.433341,,,,100.0,1e-4 m2 K/W,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,relerr_k_late_mean_over_runs,0.231126,0.188567,0.284208,bootstrap_over_runs,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,relerr_k_late_p95_over_runs,0.532234,,,,100.0,fraction (RMS relative error),,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,rmse_T_mean_over_runs,1.260898,1.063105,1.470303,bootstrap_over_runs,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,open_loop,rmse_T_p95_over_runs,3.18254,,,,100.0,K,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,ANEES_mean_after_30min,0.812317,,,,100.0,expected 3 for a consistent filter,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,ANEES_fraction_of_steps_inside_95pct_band,0.0,2.539123,3.498745,band_limits_chi2_3x100_dof_over_100,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,EKF,ANEES_fraction_of_steps_above_band,0.0,,,,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,ANEES_mean_after_30min,0.812272,,,,100.0,expected 3 for a consistent filter,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,ANEES_fraction_of_steps_inside_95pct_band,0.0,2.539123,3.498745,band_limits_chi2_3x100_dof_over_100,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation
+control_matched_generator,UKF,ANEES_fraction_of_steps_above_band,0.0,,,,2700.0,fraction of steps,,,executed_example_reduced_model_generated_data_not_validation

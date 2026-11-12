@@ -1,0 +1,53 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_rerun:
+        description: "Also run python run_all_benchmarks.py in full (about 25-40 minutes)"
+        type: boolean
+        default: false
+
+jobs:
+  stored-artefacts:
+    name: stored artefacts, manifest hashes, register
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+
+  rerun-fast:
+    name: re-run packaged benchmark modules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python tests/fast_rerun.py
+
+  full-rerun:
+    name: full re-run (manual)
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_rerun }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python run_all_benchmarks.py

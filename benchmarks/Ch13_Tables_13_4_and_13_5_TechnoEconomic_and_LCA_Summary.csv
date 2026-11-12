@@ -1,0 +1,6 @@
+case_study,capex_kEUR,annual_opex_kEUR_per_yr,annual_gross_savings_kEUR_per_yr,net_pretax_cashflow_kEUR_per_yr,net_aftertax_cashflow_kEUR_per_yr,NPV_5yr_EUR,NPV_5yr_kEUR,VaR_5pct_NPV_kEUR,discounted_payback_yr,IRR_pct,scope1_2_energy_saving_pct,scope3_food_waste_reduction_pct,evidence_status
+Ch10_Scenario_IA_Batch_Retort,295.0,58.0,285.0,227.0,185.0,443651.0,443.7,409.9,1.78,55.9,20.2,14.1,constructed_in_silico_scenario_not_independent_industrial_validation
+Ch10_Scenario_IB_Continuous_UHT,360.0,68.0,390.0,322.0,259.5,676108.0,676.1,629.9,1.54,66.4,6.1,60.6,constructed_in_silico_scenario_not_independent_industrial_validation
+Ch11_Scenario_II_Belt_and_Spray_Drying,420.0,78.0,540.0,462.0,367.5,1047321.0,1047.3,983.4,1.25,83.3,54.2,100.0,constructed_in_silico_scenario_not_independent_industrial_validation
+Ch12_Scenario_IIIA_FedBatch_Fermentation,485.0,92.0,610.0,518.0,412.75,1162991.0,1163.0,1090.7,1.29,80.7,38.1,99.6,constructed_in_silico_scenario_not_independent_industrial_validation
+Ch12_Scenario_IIIB_MultiEchelon_ColdChain,340.0,65.0,495.0,430.0,339.5,1015525.0,1015.5,956.9,1.09,96.4,25.5,97.3,constructed_in_silico_scenario_not_independent_industrial_validation

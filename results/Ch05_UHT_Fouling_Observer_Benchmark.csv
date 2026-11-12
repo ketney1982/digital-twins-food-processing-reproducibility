@@ -1,0 +1,2 @@
+scenario,R_f_true_8h_m2K_W,UKF_Rf_RMSE_m2K_W,tau_min_clean_s,tau_min_8h_s,tau_min_95pct_abs_error_s,T_hold_nominal_C,T_hold_NMPC_compensated_8h_C,target_lethality_F0_min,evidence_status
+Section_5_10_3_UHT_Milk_Fouling_Twin_8h,3.20e-04,1.06e-05,3.28,2.87,0.03,138.5,139.1,3.0,constructed_in_silico_scenario_not_independent_industrial_validation

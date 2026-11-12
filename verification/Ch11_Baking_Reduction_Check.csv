@@ -1,0 +1,13 @@
+design_slot_gain,assumed_crust_surface_T_C,assigned_exponent_AA_on_h_mult,declared_Ea_AA_J_mol,implied_dTs_per_unit_ln_h_K,implied_dTs_for_h_mult_sd_K,h_mult_sd_log,evidence_status
+0.0,160.0,1.35,118000.0,17.8,1.1,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.0,180.0,1.35,118000.0,19.5,1.21,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.0,200.0,1.35,118000.0,21.3,1.32,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.48,160.0,0.994,118000.0,13.1,0.81,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.48,180.0,0.994,118000.0,14.4,0.89,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.48,200.0,0.994,118000.0,15.7,0.97,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.78,160.0,0.771,118000.0,10.2,0.63,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.78,180.0,0.771,118000.0,11.2,0.69,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.78,200.0,0.771,118000.0,12.2,0.75,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.94,160.0,0.652,118000.0,8.6,0.53,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.94,180.0,0.652,118000.0,9.4,0.58,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters
+0.94,200.0,0.652,118000.0,10.3,0.64,0.062,implied_sensitivity_only_no_resolved_baking_model_possible_from_declared_parameters

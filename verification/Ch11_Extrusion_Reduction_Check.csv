@@ -1,0 +1,5 @@
+tier,control_gain,n_power_law,dP_reduced_mean_MPa,dP_analytical_K_scaling_mean_MPa,dP_difference_mean_pct,dP_sd_reduced,dP_sd_analytical,dP_over_interlock_reduced,dP_over_interlock_analytical,SME_reduced_mean_kJ_kg,SME_analytical_K_scaling_mean_kJ_kg,SME_sd_reduced,SME_sd_analytical,evidence_status
+tier1_fixed_recipe,0.0,0.34,6.554,6.534,0.31,0.872,0.765,0,0,557.3,557.3,57.9,57.9,consistency_check_of_assigned_exponents_against_declared_power_law_rheology
+tier2_open_loop_mechanistic,0.35,0.34,6.495,6.484,0.17,0.605,0.531,0,0,562.1,563.8,40.5,53.2,consistency_check_of_assigned_exponents_against_declared_power_law_rheology
+tier3_unconstrained_black_box_ml,0.76,0.34,6.44,6.436,0.06,0.298,0.262,0,0,529.0,532.2,18.3,46.2,consistency_check_of_assigned_exponents_against_declared_power_law_rheology
+tier4_trustworthy_digital_twin,0.94,0.34,6.42,6.419,0.03,0.165,0.145,0,0,522.8,526.5,9.4,44.7,consistency_check_of_assigned_exponents_against_declared_power_law_rheology

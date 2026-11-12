@@ -1,0 +1,13 @@
+YXS_red_g_g,control_strategy,final_biomass_C_X_g_per_L_mean,final_biomass_C_X_sd,effective_yield_YXS_g_g_mean,effective_yield_YXS_sd,cumulative_ethanol_overflow_g_per_L_mean,ethanol_sd,DO_starvation_violations_pct,cooling_jacket_saturation_events_pct,specific_electrical_energy_kWh_per_kg_X,energy_sd,matches_stored_csv,evidence_status
+0.05,1_Open_Loop_Exponential_Feed_PID,68.6,5.9,0.294,0.025,37.43,6.74,100.0,100.0,2.96,0.22,True,executed_sensitivity_of_assigned_input_not_validation
+0.05,2_Assigned_Recurrent_Design_Slot_Not_Trained,83.3,6.7,0.392,0.018,13.81,4.47,100.0,24.0,2.36,0.17,True,executed_sensitivity_of_assigned_input_not_validation
+0.05,3_Fixed_Mechanistic_ODE_Nominal_EKF_NMPC,93.8,7.8,0.441,0.008,2.53,1.9,99.2,39.6,2.04,0.15,True,executed_sensitivity_of_assigned_input_not_validation
+0.05,4_Trustworthy_IVVO_DT_Algorithm_12_1,102.1,10.0,0.458,0.003,0.14,0.19,0.0,0.8,1.83,0.16,True,executed_sensitivity_of_assigned_input_not_validation
+0.1,1_Open_Loop_Exponential_Feed_PID,72.4,5.2,0.31,0.022,37.36,6.74,100.0,100.0,2.82,0.17,,executed_sensitivity_of_assigned_input_not_validation
+0.1,2_Assigned_Recurrent_Design_Slot_Not_Trained,84.8,6.2,0.399,0.015,13.8,4.48,100.0,24.0,2.33,0.15,,executed_sensitivity_of_assigned_input_not_validation
+0.1,3_Fixed_Mechanistic_ODE_Nominal_EKF_NMPC,94.1,7.6,0.442,0.007,2.53,1.9,99.2,39.6,2.03,0.15,,executed_sensitivity_of_assigned_input_not_validation
+0.1,4_Trustworthy_IVVO_DT_Algorithm_12_1,102.1,10.0,0.458,0.003,0.14,0.19,0.0,0.8,1.83,0.16,,executed_sensitivity_of_assigned_input_not_validation
+0.15,1_Open_Loop_Exponential_Feed_PID,76.2,4.6,0.326,0.019,37.32,6.76,100.0,100.0,2.7,0.14,,executed_sensitivity_of_assigned_input_not_validation
+0.15,2_Assigned_Recurrent_Design_Slot_Not_Trained,86.3,5.8,0.405,0.013,13.79,4.49,100.0,24.0,2.29,0.14,,executed_sensitivity_of_assigned_input_not_validation
+0.15,3_Fixed_Mechanistic_ODE_Nominal_EKF_NMPC,94.3,7.5,0.443,0.006,2.53,1.9,99.2,39.6,2.03,0.14,,executed_sensitivity_of_assigned_input_not_validation
+0.15,4_Trustworthy_IVVO_DT_Algorithm_12_1,102.1,10.0,0.458,0.003,0.14,0.19,0.0,0.8,1.83,0.16,,executed_sensitivity_of_assigned_input_not_validation
