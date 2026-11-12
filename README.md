@@ -5,7 +5,7 @@ code, inputs, stored results and verification scripts for the computational exam
 
 **Status.** The package contains limiting-equation verification, reduced-model simulations, constructed response curves, assigned quantities and conditional accounting scenarios. It contains no industrial validation data set and no qualified food-process controller. Matching a stored file or a hash shows consistency with an artefact; it does not validate a model.
 
-- Release accompanying the delivered text: tag `manuscript-2026-11-12` (Appendix C of the book). Earlier tags: `manuscript-2026-10-31`, `manuscript-2026-11-09`, `manuscript-2026-11-submission`.
+- Release accompanying the delivered text: tag `manuscript-2026-11-12` (Appendix C of the book).
 - Licence: MIT (`LICENSE`) for code and files created for the book. The two files in `data/external` come from open-licence papers (CC BY 4.0, CC BY 3.0) and keep their licences; data of publications without an open licence are not included in this release (see `data/external/README.md`).
 - Citation: `CITATION.cff`.
 

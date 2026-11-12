@@ -114475,7 +114475,7 @@
     ],
     "invalid_citation_repair": {
       "file": "Ch13_Manuscript.docx",
-      "location": "Table 13.5, autonomous commissioning row",
+      "location": "Table 13.6, autonomous commissioning row",
       "old_text": "Closed-loop safe Bayesian active learning (D-optimal excitation within HACCP tubes) and automated ASME V&V 40 dossier generation (!!! INVALID CITATION !!! ).",
       "replacement": "Proposed constrained Bayesian experimental design within site-approved operating limits, with a model-credibility dossier adapted from ASME V&V 40 by analogy {{ASME, 2018}}.",
       "source": "active EndNote record31; primary medical-device scope already checked; engineering analogy only"

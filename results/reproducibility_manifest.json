@@ -2,7 +2,7 @@
   "scientific_status": "conceptual_methodological_monograph_with_computational_illustrations",
   "manifest_mode": "manifest_only_stored_results_regression_checked_not_recomputed",
   "hash_rule": "SHA-256 of LF-canonical bytes (CRLF and CR converted to LF) for .csv, .json and .py files; raw bytes for .png and .docx files",
-  "evidence_register_sha256": "b52188e6968783d0838ec5f4a4576495934de89817f0acfe2fcdee94b9e2feb5",
+  "evidence_register_sha256": "0ea4e14933e61da61f385a084c9d4e76e5dfb278ff70c602d9ea81b08acdc5e1",
   "evidence_register_validation": {
     "parameter_records": 131,
     "parameter_status": "assumed_unverified_not_physically_authenticated",
@@ -108,7 +108,7 @@
     },
     {
       "claim_id": "C13-01",
-      "location": "Ch13 \u00a713.5.4 / Table 13.4b / Figure 13.1",
+      "location": "Ch13 \u00a713.5.4 / Table 13.5 / Figure 13.1",
       "claim": "Assigned net reductions are 0, 405.5, 1070.8 and 1867.2 tCO2e/yr; Tier3 minus Tier2 is 796.4.",
       "evidence_type": "assigned_counterfactual_portfolio_not_measured_abatement",
       "source_file": "results/Ch13_Counterfactual_Tiers_and_LCA_Sensitivity.csv",
@@ -430,21 +430,21 @@
     "fig_ch13_1.png": "9415eddb0a98a9d2b71e198b14f1602bdb56a15bfe1ea75cd77181dcb103c41a"
   },
   "manuscript_hashes": {
-    "00_Front_Matter.docx": "8fd46c40597b56f69aa63dcf32d75fac4e44277fddf3178ba8528defa0ba49c4",
-    "14_Back_Matter_and_Index.docx": "b989357e4a0ffbc5531d14c4ac8dcb6451cdbf194fc35e0f0d6f56f2496a40ba",
+    "00_Front_Matter.docx": "d31335f38073ba0974ebcceb102a4f4ff7855cffd6bf58c09a9dabe206e9f414",
+    "14_Back_Matter_and_Index.docx": "9f1a4d0a6d539ef17797acfee8831f569fa499e5a110011e37caae92e26dd195",
     "Ch01_Manuscript.docx": "8285276a6213367ccf2a5a063d8ec31940954c089fab4f5700c0184d92f80369",
-    "Ch02_Manuscript.docx": "7e55ee9b453a92cd405b9cf701e9396edb5d6a2e169389b4c1f61b25eb71d51e",
-    "Ch03_Manuscript.docx": "a1bfe368c100617f419289ff6afc3be22df2a733d5d4df930fe1df1b8e6c5497",
+    "Ch02_Manuscript.docx": "53dc897f2ded3b94fb4fefa2ddbac15d5c6183f86a21c3fa390ef8028a88cb5a",
+    "Ch03_Manuscript.docx": "04d709f682d825e0c92af9c845d60aae8e5480fe09014abf9972b76f157239c4",
     "Ch04_Manuscript.docx": "12b2300aa4c3e49b9cf61207e3c5ab054a039500c732577420f28618a85d5357",
-    "Ch05_Manuscript.docx": "b4fb657a8f8d60b2616b3f9095c4054a8c9d1cb730791b0ad621df7154ecb4a0",
-    "Ch06_Manuscript.docx": "a29a39708b7e281de2f7d76ed426a5a991fd16c342b0dd51bff950d1235c88b6",
-    "Ch07_Manuscript.docx": "848d3dff7591333041f0bd20361511a9327984071bafeab78f4f2dfeb4776cde",
-    "Ch08_Manuscript.docx": "5831b7f1ee75d70d77622a82e70b85e2952951b8b48f8ea0ff501b6ccbab7a41",
-    "Ch09_Manuscript.docx": "6d6c285463c6d80d3fb64cdca57238f62cff0422df0d109179d3279556cea2de",
-    "Ch10_Manuscript.docx": "294149dccc3ef030a161b15c32cf55497876e976c026e20b9e032e4d09151cc5",
-    "Ch11_Manuscript.docx": "7414a3af7162c1f8910d8f91db3248c1d28820d41f46cb73b92e518cfd91feff",
+    "Ch05_Manuscript.docx": "fe0cdfc5f185054c833dad78f7357280a7b4710d8ce53c0ff24ef8ec890c7206",
+    "Ch06_Manuscript.docx": "18ecc34373b07a94bd525da8d8be8c3fc762c4d6354c69166fbe5ae0ed566e27",
+    "Ch07_Manuscript.docx": "41a0d41b1e3d2305e4522df95614932ad4fd5f2a273910f20c0bbe29adcb72d5",
+    "Ch08_Manuscript.docx": "580a62a104de9092719c56dc5ef07fb4a19c020d7fc64c57f86e05051cb91ee4",
+    "Ch09_Manuscript.docx": "612a08d669be8fd1fa6a4446aa329f213c5aeb08cd26fcc6cd6e87c145f0695c",
+    "Ch10_Manuscript.docx": "5e559bb23ae0b8ad3431156478b6998101fad20949ee4096bada8b49155aac1a",
+    "Ch11_Manuscript.docx": "f4fb7fbedc5e8c16b8a4257262aefe4cb92befab9dc592cea46ca9447b7afed5",
     "Ch12_Manuscript.docx": "1dd49040ff94cc5644643e4989bec477364a29ebb68c62cdfc7fdc572f213583",
-    "Ch13_Manuscript.docx": "93beb95a2acdd6a8b6850a48dda489b3516739008a749320f8e155ca50ff9521"
+    "Ch13_Manuscript.docx": "fcfee500d3aa4b4a152fbec74da1e64c26c9a3d19385e9328dae683df2ff15ed"
   },
   "seed": 42,
   "limitations": [
@@ -458,7 +458,7 @@
   "numpy_version": "2.4.6",
   "scipy_version": "1.17.1",
   "pandas_version": "2.3.3",
-  "script_sha256": "c89ccc4da401b7c26b182568445766495e755a6569b5b1061a5e1012028cf790",
+  "script_sha256": "28951625122397fc312a20592e6af16e3672b057986db07410d33449af4e4619",
   "inputs": {
     "kinetic_and_transport_parameters.csv": "1061eea07b4d02f11a5dbabcfdedb5649256e2dd00f5cbea92075b67716a7f4a",
     "monte_carlo_disturbances_seed42.csv": "6cd7ad7014e74b013abaf5a166e1e1890066fd8e239f8a9f739922b1bb6d50df"
